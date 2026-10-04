@@ -1,0 +1,27 @@
+device: Jetson Orin Nano 8GB
+input_size: [640, 640]
+batch_size: 1
+precision: fp16
+format: engine
+onnx_opset: 17
+power_mode: MAXN SUPER
+jetson_clocks: true
+warmup_iterations_minimum: 200
+warmup_seconds_minimum: 5
+independent_processes: 3
+measurement_images: full_test_split
+p95_definition: nearest_rank
+cuda_graphs: false
+jetpack: 6.2.1
+jetson_linux: 36.4.4
+cuda: 12.6
+cudnn: 9.3
+tensorrt: 10.3
+input: RGB image in memory
+output: CPU-readable detection boxes
+include_preprocessing: true
+include_data_transfer: true
+include_decoding: true
+include_postprocessing: true
+include_file_reading: false
+include_image_decoding: false

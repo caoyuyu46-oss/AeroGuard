@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-03",
+  "scope": "Engineering validation of the manuscript-based implementation; not replication of the reported experiments",
+  "environment": {
+    "os": "Windows",
+    "python": "3.11.14",
+    "torch": "2.9.1+cu130",
+    "torchvision": "0.24.1+cu130",
+    "device": "CPU",
+    "cuda_available": false,
+    "paper_environment_executed": false
+  },
+  "unit_and_integration_tests": {
+    "passed": 92,
+    "failed": 0,
+    "skipped": 0,
+    "model_configurations": 28,
+    "after_comment_and_docstring_removal": true
+  },
+  "training_smoke": {
+    "passed": true,
+    "epochs": 1,
+    "imgsz": 128,
+    "batch": 2,
+    "device": "cpu",
+    "amp": false,
+    "initialization": "random",
+    "train_images": 150,
+    "val_images": 25,
+    "loss_components": [
+      "box",
+      "classification",
+      "dfl",
+      "quality"
+    ],
+    "checkpoint_selection": "Full-precision COCO drone AP with earliest-epoch tie handling",
+    "best_and_last_saved": true,
+    "losses": {
+      "train/box_loss": 3.6962,
+      "train/cls_loss": 20.257,
+      "train/dfl_loss": 2.1275,
+      "train/quality_loss": 1.8092,
+      "val/box_loss": 2.5834,
+      "val/cls_loss": 2.5623,
+      "val/dfl_loss": 2.0136,
+      "val/quality_loss": 3.2655
+    }
+  },
+  "evaluation_smoke": {
+    "passed": true,
+    "validation_images": 25,
+    "test_images": 25,
+    "frozen_validation_threshold_consumed": true,
+    "checkpoint_identity_matched": true,
+    "paper_accuracy_reproduced": false
+  },
+  "prediction_smoke": {
+    "passed": true,
+    "images": 25,
+    "imgsz": 128,
+    "device": "cpu"
+  },
+  "timing_smoke": {
+    "passed": true,
+    "device": "cpu",
+    "imgsz": 128,
+    "processes": 1,
+    "frames": 25,
+    "warmup_iterations": 413,
+    "warmup_seconds": 5.0035420000203885,
+    "paper_jetson_timing_reproduced": false
+  },
+  "onnx": {
+    "opset": 17,
+    "input_shape": [
+      1,
+      3,
+      640,
+      640
+    ],
+    "provider": "CPUExecutionProvider",
+    "onnx_checker": "passed",
+    "checkpoint": "Untrained engineering-only checkpoint; not a paper result",
+    "rtol": 0.0001,
+    "atol": 0.001,
+    "cases": {
+      "zero": {
+        "output_shape": [
+          1,
+          6,
+          8400
+        ],
+        "max_absolute_error": 0.0,
+        "mean_absolute_error": 0.0,
+        "finite": true,
+        "allclose": true
+      },
+      "random": {
+        "output_shape": [
+          1,
+          6,
+          8400
+        ],
+        "max_absolute_error": 3.0517578125e-05,
+        "mean_absolute_error": 3.080389205933898e-07,
+        "finite": true,
+        "allclose": true
+      },
+      "sample": {
+        "output_shape": [
+          1,
+          6,
+          8400
+        ],
+        "max_absolute_error": 2.288818359375e-05,
+        "mean_absolute_error": 1.3519432684461208e-07,
+        "finite": true,
+        "allclose": true
+      }
+    }
+  },
+  "model_profile": {
+    "classes": 2,
+    "input_size": 640,
+    "parameters": 2590482,
+    "thop_gflops_unfused": 7.533017600000001,
+    "thop_gflops_fused": 7.441676799999999,
+    "thop_available": true,
+    "decoded_shape": [
+      1,
+      6,
+      8400
+    ],
+    "strides": [
+      8.0,
+      16.0,
+      32.0
+    ],
+    "finite_output": true,
+    "counting": "THOP registered operations; multiply-add counts as two operations",
+    "functional_operations": "Functional resampling and elementwise operations may not be counted by THOP"
+  },
+  "wheel_build": {
+    "passed": true,
+    "package_version": "8.3.0+aeroguard.20261003"
+  },
+  "not_executed": [
+    "300-epoch multi-seed benchmark training",
+    "CUDA and AMP training",
+    "TensorRT engine build",
+    "Jetson latency benchmark",
+    "Original 312-source-group bootstrap",
+    "External frozen-split benchmark replication"
+  ],
+  "sample": {
+    "images": 200,
+    "splits": {
+      "train": 150,
+      "val": 25,
+      "test": 25
+    },
+    "instances": {
+      "drone": 427,
+      "bird": 4159
+    },
+    "class_states": {
+      "drone": 100,
+      "bird": 66,
+      "background": 33,
+      "mixed": 1
+    },
+    "source_collections": {
+      "AntiUAV_Tracking": 20,
+      "D1_DroneBird": 28,
+      "DUT_AntiUAV": 25,
+      "D8_AOD4": 58,
+      "D2_BirdDrone": 27,
+      "D7_FlySmallBirds": 42
+    },
+    "drone_size_bins_e640": {
+      "32_or_larger": 185,
+      "below_8": 17,
+      "16_to_32": 187,
+      "8_to_16": 38
+    },
+    "independent_source_groups": 200,
+    "selection_seed": 42,
+    "original_splits_preserved": true,
+    "image_bytes_preserved": true,
+    "annotation_bytes_preserved": true,
+    "purpose": "Example dataset for execution checks; not the paper benchmark"
+  },
+  "release_hygiene": {
+    "language": "English",
+    "ordinary_code_comments": 0,
+    "explanatory_docstrings": 0,
+    "legal_notices_retained": true,
+    "private_absolute_paths": 0,
+    "trained_or_random_weights_bundled": false,
+    "generated_runs_bundled": false
+  },
+  "manuscript_alignment": {
+    "revision": "2026-10-03 final",
+    "parameter_count": 2590482,
+    "reported_parameters_m": "2.590",
+    "reported_gflops": "7.533",
+    "input_size": 640,
+    "classes": 2,
+    "counting": "Unfused THOP; a multiply-add counts as two operations",
+    "status": "Manuscript complexity synchronized with the measured implementation",
+    "control_label": "Capacity control"
+  },
+  "author_confirmations": {
+    "date": "2026-10-03",
+    "test_source_groups": 312,
+    "source_group_mapping": "Verified and confirmed by the author",
+    "external_frozen_splits": "Verified and confirmed by the author",
+    "historical_p2_and_capacity_controls": "Verified and confirmed by the author",
+    "packaged_assets": "Author confirmation does not change the assets included in this source distribution"
+  }
+}

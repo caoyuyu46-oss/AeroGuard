@@ -1,0 +1,8 @@
+The images and source annotations retain the rights and terms of their original
+rights holders. They are not relicensed under the source-code AGPL-3.0 license.
+No additional license to third-party content is granted by this file.
+
+The manifest records the source collection, original identifier, source group,
+and SHA-256 checksums for each included image and label. Original image and label
+bytes are preserved. Dataset redistribution and use remain subject to the terms
+applicable to the respective source collections.

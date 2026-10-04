@@ -1,0 +1,20 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+
+
+
+
+
+
+
+
+path: ../datasets/signature
+train: train/images
+val: valid/images
+
+
+names:
+  0: signature
+
+
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/signature.zip

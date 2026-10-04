@@ -1,0 +1,41 @@
+{
+  "name": "AeroGuard",
+  "version": "2026.10.03-final",
+  "package_version": "8.3.0+aeroguard.20261003",
+  "manuscript_title": "Controlled Detail Transfer and Grid-Relative Geometry Learning for Visible-Light Anti-UAV Detection",
+  "implementation_authority": "The supplied final manuscript method definitions and evaluation protocol",
+  "upstream": {
+    "repository": "https://github.com/ultralytics/ultralytics",
+    "tag": "v8.3.0",
+    "commit": "6e43d1e1e5db72afbf686dee6745669bcb124b0a",
+    "archive_url": "https://github.com/ultralytics/ultralytics/archive/refs/tags/v8.3.0.zip",
+    "archive_sha256": "5b7120d5c52e8b231ef7f04c5ea9240c3b0597eb923cb7d57d2d410563f95d72"
+  },
+  "license": "AGPL-3.0",
+  "dataset_license": "Source-specific; see datasets/aeroguard_sample/DATA_LICENSE.txt",
+  "source_changes": [
+    "RDET, BDRP, SJRH and SAGE implementation",
+    "Model parser, detection head and loss integration",
+    "Exact paper AP checkpoint selection",
+    "Evaluation, bootstrap, timing and feature-ECDF tools",
+    "Experiment and dataset configurations",
+    "Removal of ordinary comments and explanatory docstrings"
+  ],
+  "upstream_content_omitted": [
+    "Website documentation",
+    "Multilingual READMEs",
+    "Upstream tests unrelated to this manuscript"
+  ],
+  "sample_images": 200,
+  "model_configurations": 28,
+  "paper_weights_included": false,
+  "empirical_paper_replication_verified": false,
+  "validation_record": "VALIDATION.json",
+  "file_checksums": "MANIFEST.sha256.json",
+  "manuscript_complexity": {
+    "parameters_m": "2.590",
+    "gflops": "7.533",
+    "counting": "Unfused THOP at 640 input, two classes"
+  },
+  "revision_scope": "Manuscript complexity and release documentation synchronized; algorithm source and experiment YAML values unchanged"
+}

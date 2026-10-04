@@ -1,0 +1,21 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+
+
+
+
+
+
+
+
+path: ../datasets/package-seg
+train: images/train
+val: images/val
+test: test/images
+
+
+names:
+  0: package
+
+
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/package-seg.zip

@@ -1,0 +1,21 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+
+
+
+
+
+
+
+
+path: ../datasets/crack-seg
+train: train/images
+val: valid/images
+test: test/images
+
+
+names:
+  0: crack
+
+
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/crack-seg.zip

@@ -1,0 +1,3694 @@
+{
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 577,
+      "sha256": "a0699739cc7c1f6bcb9a88512363cdafbc54bc15098fe7edafb8773d497c11eb"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1216,
+      "sha256": "7ecd4ed0482bfbcb1b843a8d62d6de958efdf35321eab61a454e1f3abf849d89"
+    },
+    {
+      "path": "CITATION.bib",
+      "bytes": 210,
+      "sha256": "7ecda835623e437f5dcba001276ad483ac17025dea2cc350760e9fd470449975"
+    },
+    {
+      "path": "configs/data/aeroguard_sample.yaml",
+      "bytes": 120,
+      "sha256": "31eda834186751208ce0040f9fd2af5c388b78bd44aa66c9ea90adeb245934b2"
+    },
+    {
+      "path": "configs/data/aeroguard_uavb.yaml",
+      "bytes": 118,
+      "sha256": "965e215429f9e4195112a5ce2ac3779b9e3cbf8cb352585649267267b09b1f2f"
+    },
+    {
+      "path": "configs/data/dut_anti_uav.yaml",
+      "bytes": 106,
+      "sha256": "f940b955789dda4b134b90c1c3a68a64aded88337cc7674ab409d231997845aa"
+    },
+    {
+      "path": "configs/data/nwpu_vhr10.yaml",
+      "bytes": 260,
+      "sha256": "61f669cadde5d26466dd3275ba72ab11c763f608b3753477a5dcd385b58a9c6c"
+    },
+    {
+      "path": "configs/data/rsod.yaml",
+      "bytes": 144,
+      "sha256": "0c09f03fa5921b9f29efd83cef14a97cc03ddbe60847ad459e42910bf625600f"
+    },
+    {
+      "path": "configs/data/simd.yaml",
+      "bytes": 290,
+      "sha256": "6ad93bbe2e32d609803cf155a900912d09d9c64c3231e678ec137a9855a26c36"
+    },
+    {
+      "path": "configs/data/sources.json",
+      "bytes": 904,
+      "sha256": "8ac245bd353b0ff7a01b30ab7f8f0a2a5f65a706546429c49598eda60152caeb"
+    },
+    {
+      "path": "configs/data/visdrone.yaml",
+      "bytes": 217,
+      "sha256": "37411590f3bad0ecea75e1457de0bb4d671af4227394a85d9f57c34c548e0f4a"
+    },
+    {
+      "path": "configs/deployment/jetson.yaml",
+      "bytes": 624,
+      "sha256": "172b21ab689c61bb31b850f48741e00cfefee014196c484bf32a6026ac5f2d11"
+    },
+    {
+      "path": "configs/evaluation/paper.yaml",
+      "bytes": 450,
+      "sha256": "3537dc6aba3b03cc8c4cafea7ed8efc9742270684ef648fc50c58fdc2adef302"
+    },
+    {
+      "path": "configs/experiments/aeroguard.yaml",
+      "bytes": 414,
+      "sha256": "159d217a62dd40dd37208376ce354564ff1f29ac8e21f78e25ea07bbef0e05b3"
+    },
+    {
+      "path": "configs/experiments/baseline.yaml",
+      "bytes": 413,
+      "sha256": "d02c1670c76af0dabf166149b7154a81760396dacf848adfff933fe8377895ca"
+    },
+    {
+      "path": "configs/experiments/bdrp_gate_only.yaml",
+      "bytes": 419,
+      "sha256": "e21c5278a108067c68ff52493de039e2f5abe585713561d4179df18ae4ffc4bb"
+    },
+    {
+      "path": "configs/experiments/bdrp_global_bound.yaml",
+      "bytes": 422,
+      "sha256": "3d5c14d236ef05585d8ee0ac1c535ec8104441a1271ebfaec340ed76caed07c8"
+    },
+    {
+      "path": "configs/experiments/bdrp_local_bound_only.yaml",
+      "bytes": 426,
+      "sha256": "e284ef537e501b6254a08f54c89b1e478b7fa95f9dd7a2decdb5951b2557337b"
+    },
+    {
+      "path": "configs/experiments/capacity_control.yaml",
+      "bytes": 421,
+      "sha256": "5426074388e2249065694299623e2077df337ed31f8f586a3f79a2e7f35b38cd"
+    },
+    {
+      "path": "configs/experiments/ciou_quality.yaml",
+      "bytes": 417,
+      "sha256": "09330be63bb67d3570ef8a22bdc70cadfc0751f199ab48f70cf3b545b65fcbe7"
+    },
+    {
+      "path": "configs/experiments/F000.yaml",
+      "bytes": 409,
+      "sha256": "ebea0c62512bf6e540820c33ecfb7070e9ba2178223d1799b1679085586da922"
+    },
+    {
+      "path": "configs/experiments/F001.yaml",
+      "bytes": 409,
+      "sha256": "f1c82e12c41e320714168bd0ce49c495c34e0b7aa2995884762d65f492c3c7b6"
+    },
+    {
+      "path": "configs/experiments/F010.yaml",
+      "bytes": 409,
+      "sha256": "b2f6f62c1a46022c84e9644e370607b58474094779d9a4e59d90bbd5bf1025ad"
+    },
+    {
+      "path": "configs/experiments/F011.yaml",
+      "bytes": 409,
+      "sha256": "837cc17eee7d6c2a34014c004d624380a987b13806e094dbdea4ea600e5573ef"
+    },
+    {
+      "path": "configs/experiments/F100.yaml",
+      "bytes": 409,
+      "sha256": "d07c5c1f9f5bc8484572275ebfe20d9cf525f72975fe6c7b678b3ba42de98824"
+    },
+    {
+      "path": "configs/experiments/F101.yaml",
+      "bytes": 409,
+      "sha256": "7eb88f12c0238b5983336746cc317f365844e2d09ce5d45334041a01a9b4c90c"
+    },
+    {
+      "path": "configs/experiments/F110.yaml",
+      "bytes": 409,
+      "sha256": "bf9d6a159ab98ce8cf6203ad72209718afdfa6b702cc0b33d57e9335a297bab0"
+    },
+    {
+      "path": "configs/experiments/F111.yaml",
+      "bytes": 409,
+      "sha256": "3b268429efdefb3417ace67d0517fb2396976b566a6a98b5758281f2c53b6f01"
+    },
+    {
+      "path": "configs/experiments/F111C.yaml",
+      "bytes": 410,
+      "sha256": "ea12852685c2a2147fb655193067544bda25640a298cee94d8fc23503ec5d407"
+    },
+    {
+      "path": "configs/experiments/F111SQ.yaml",
+      "bytes": 411,
+      "sha256": "55325a619462275c2bf51a9810ac4e00f694f58b1243dd9eb349f89795e669c8"
+    },
+    {
+      "path": "configs/experiments/manifest.json",
+      "bytes": 2788,
+      "sha256": "0722471764e9dadcb78b5795d17a6ae295e8a0baaf3e3abc7ed52e22c1f17f7e"
+    },
+    {
+      "path": "configs/experiments/p2_control.yaml",
+      "bytes": 415,
+      "sha256": "59663cf9e5650112f2fb7a0bd8358f413618b5258cb15e832085fa92b28949df"
+    },
+    {
+      "path": "configs/experiments/rdet_fixed_residual.yaml",
+      "bytes": 424,
+      "sha256": "064251d09f5c33438fadd744df24e9218f9b63f269ff44c03a4c47af942f00dc"
+    },
+    {
+      "path": "configs/experiments/rdet_no_agreement.yaml",
+      "bytes": 422,
+      "sha256": "75e96daafb26ddb136759a1ced79ce87a244a8f99c41ac27f863a8a14cfd2651"
+    },
+    {
+      "path": "configs/experiments/rdet_no_salience.yaml",
+      "bytes": 421,
+      "sha256": "c11b227672a2cb7668ad0f475f2b3407ac5f17e9a1b8c033c32ae8ca142e7b22"
+    },
+    {
+      "path": "configs/experiments/rdet_no_shrink.yaml",
+      "bytes": 419,
+      "sha256": "3bcf65023e511d561237883d084abd1c5a82bd6a1f43f30c6303a4f7e84914cb"
+    },
+    {
+      "path": "configs/experiments/sage_iou_quality.yaml",
+      "bytes": 421,
+      "sha256": "a2109801177be57712687c9c11d90dec9fd2f6be78b2e9354a9f428ba223b655"
+    },
+    {
+      "path": "configs/experiments/sage_quality_off.yaml",
+      "bytes": 421,
+      "sha256": "acc385e1a49867f4e8931caf67e9de59df832a157f817542809d8c3b6fb5e58b"
+    },
+    {
+      "path": "configs/experiments/sage_rank_off.yaml",
+      "bytes": 418,
+      "sha256": "e466ba3d0f4eedcc96370d781e58731cb3ef8c3c68bb6cbc8330e7474aea49b1"
+    },
+    {
+      "path": "configs/experiments/sjrh_large_radius.yaml",
+      "bytes": 422,
+      "sha256": "4fdaceb3a01a35ffb92afa0f98501ad2fb70ae82f2cc97104a44dc8c1a37fbd6"
+    },
+    {
+      "path": "configs/experiments/sjrh_shared_offsets.yaml",
+      "bytes": 424,
+      "sha256": "b77e58178c7e833bcc17af4ab487db46302a6b7ebe2ab75906c62703acb20f93"
+    },
+    {
+      "path": "configs/experiments/sjrh_zero_offsets.yaml",
+      "bytes": 422,
+      "sha256": "834d2732213f3509cf06d913ab2779b87ae7cfe2727f06d7de6e6931cc259073"
+    },
+    {
+      "path": "configs/models/aeroguard.yaml",
+      "bytes": 1151,
+      "sha256": "aeb0264917245b737c4685eb5d9bbbc9f08f53682bf443f089c9cbf0e433f091"
+    },
+    {
+      "path": "configs/models/baseline.yaml",
+      "bytes": 931,
+      "sha256": "7b9799b505353f75c5b00ec400855dc5804109590b763ca5507d250bab3ee18a"
+    },
+    {
+      "path": "configs/models/bdrp_gate_only.yaml",
+      "bytes": 888,
+      "sha256": "8cfd4664c91db21a62b308f9dab1c1105f945c3829d8e421084ea7ebe3d5e379"
+    },
+    {
+      "path": "configs/models/bdrp_global_bound.yaml",
+      "bytes": 895,
+      "sha256": "b06262d84033ebfab79039562a6346af09d08182bd15122a03e1dc66dc9925c5"
+    },
+    {
+      "path": "configs/models/bdrp_local_bound_only.yaml",
+      "bytes": 888,
+      "sha256": "7fb0f0e2b151f49644b07927385fc39b9d50da771795d099b00e05bb3b962266"
+    },
+    {
+      "path": "configs/models/capacity_control.yaml",
+      "bytes": 930,
+      "sha256": "c194c5ebf1dae3440a5e23950385bc2ed8c0c85f71e645a4179348574b61bdd8"
+    },
+    {
+      "path": "configs/models/ciou_quality.yaml",
+      "bytes": 1146,
+      "sha256": "ec3fdef185f12e87da34d6ff16e99bc28e86c4aa6cde87829394338656dae7bb"
+    },
+    {
+      "path": "configs/models/F000.yaml",
+      "bytes": 931,
+      "sha256": "7b9799b505353f75c5b00ec400855dc5804109590b763ca5507d250bab3ee18a"
+    },
+    {
+      "path": "configs/models/F001.yaml",
+      "bytes": 964,
+      "sha256": "94829c0cca7e1f4b166dafcc6379b7cbbc5b963367203b3b6efee98823ce5f21"
+    },
+    {
+      "path": "configs/models/F010.yaml",
+      "bytes": 887,
+      "sha256": "8f318c2c39da66ced181a0186e1408687ff7268d9da6c1ac9a575f40c0562043"
+    },
+    {
+      "path": "configs/models/F011.yaml",
+      "bytes": 920,
+      "sha256": "b31b1a2b92c5ced9d410c9d52160ba231ea82ad72459aafde042cc10b6ee4611"
+    },
+    {
+      "path": "configs/models/F100.yaml",
+      "bytes": 1165,
+      "sha256": "94e8bbab5f2a61e0a1f16bc12efffa711c412824ee9ecd5ecdf3f8f1c88c37b1"
+    },
+    {
+      "path": "configs/models/F101.yaml",
+      "bytes": 1198,
+      "sha256": "573ed2c799345f6b089d2001cd436a9d1613ecc3a7ccb33cb65dc18e7a5dbb07"
+    },
+    {
+      "path": "configs/models/F110.yaml",
+      "bytes": 1121,
+      "sha256": "9aca7a8f1c16440c9f7e5578a5552281581ee11dc474e08185e4bf2a45db77c0"
+    },
+    {
+      "path": "configs/models/F111.yaml",
+      "bytes": 1154,
+      "sha256": "01fe3dc1fbdfe9d414f576dd6b1bb70bd9e2ba1a0cce27e14ae1c37db83a941e"
+    },
+    {
+      "path": "configs/models/F111C.yaml",
+      "bytes": 1154,
+      "sha256": "01fe3dc1fbdfe9d414f576dd6b1bb70bd9e2ba1a0cce27e14ae1c37db83a941e"
+    },
+    {
+      "path": "configs/models/F111SQ.yaml",
+      "bytes": 1151,
+      "sha256": "aeb0264917245b737c4685eb5d9bbbc9f08f53682bf443f089c9cbf0e433f091"
+    },
+    {
+      "path": "configs/models/p2_control.yaml",
+      "bytes": 1124,
+      "sha256": "c7b7fff91ef105af5dea0fda34e65c4beed2761823947ff3c2a21fa4c3b01764"
+    },
+    {
+      "path": "configs/models/rdet_fixed_residual.yaml",
+      "bytes": 1168,
+      "sha256": "6c5727ec84b3ff2b6c740e5a64e00323a1fcc8821f1b16dc64f2d6f294d91d0a"
+    },
+    {
+      "path": "configs/models/rdet_no_agreement.yaml",
+      "bytes": 1207,
+      "sha256": "3c2a7020697902355068f841c3cc91acbbfae405fc430a6c6dce4453493ecdc6"
+    },
+    {
+      "path": "configs/models/rdet_no_salience.yaml",
+      "bytes": 1204,
+      "sha256": "2eea363c0dc53bdb12e8eb3507b8f283d9d70f83efaaa80e5b040cd38b0a31b3"
+    },
+    {
+      "path": "configs/models/rdet_no_shrink.yaml",
+      "bytes": 1166,
+      "sha256": "4d417273828a73e472f2407a5cea1416117916429956d4044b96af56a8327e4b"
+    },
+    {
+      "path": "configs/models/sage_iou_quality.yaml",
+      "bytes": 1145,
+      "sha256": "12208a56d8bc0e72f91983805be117e3323b28266f77e25c410de2e961e3c04b"
+    },
+    {
+      "path": "configs/models/sage_quality_off.yaml",
+      "bytes": 1153,
+      "sha256": "719a3c56be1e2a2dc93a3b51d613b8b0d0adc2468e03a7489466fd6f013b7151"
+    },
+    {
+      "path": "configs/models/sage_rank_off.yaml",
+      "bytes": 1152,
+      "sha256": "84c3bddafd0f0fa5b3c54cba6ab132d91ffa53e77d71435d3503a9babf05eaa7"
+    },
+    {
+      "path": "configs/models/sjrh_large_radius.yaml",
+      "bytes": 1154,
+      "sha256": "4f8da01b2c724007a2e163c1a886f229c2636283e7c226ca52223b48cb8cadea"
+    },
+    {
+      "path": "configs/models/sjrh_shared_offsets.yaml",
+      "bytes": 1153,
+      "sha256": "7dd4a4b33fe4de90f479e107836e9b6f9cd2a8ff7b69d03aa1c8af8a0e2f826a"
+    },
+    {
+      "path": "configs/models/sjrh_zero_offsets.yaml",
+      "bytes": 1154,
+      "sha256": "6429643438882bf3a4d7459079097d027142e1e7d9f215115e39434c0619de39"
+    },
+    {
+      "path": "datasets/aeroguard_sample/DATA_LICENSE.txt",
+      "bytes": 521,
+      "sha256": "2e85b5a088b4d10b2e0b985326926698409e59f9cc219d8ef4906206e8259893"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000176.jpg",
+      "bytes": 19741,
+      "sha256": "ad86d5d682a15145d3a5a2cb94933070f2c3419887ea98c4b2c2b49b2c295a41"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000177.jpg",
+      "bytes": 63470,
+      "sha256": "b46aaebdf21d4fa4ed3c464c4c837797bfcd9719dafb37151ae77222efda5832"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000178.jpg",
+      "bytes": 154006,
+      "sha256": "a4afa28e971839a4dc42c75702901891a3d4287178bc108806ecc7087d1a3450"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000179.jpg",
+      "bytes": 123918,
+      "sha256": "ead37712d15fca96439034705a83e404947684d2f9e7fd05816665b5d6a42a51"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000180.jpg",
+      "bytes": 247207,
+      "sha256": "f3652ed1b25f0f2f6107a40a1c975b97203ecc5aa2c27f021ebb7870b8a56263"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000181.jpg",
+      "bytes": 24558,
+      "sha256": "c1c3153bf8ab11bb5832e7122d638f1d5b94ab1e9fe99fef4154192075dd0f7d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000182.jpg",
+      "bytes": 74960,
+      "sha256": "7b35b0f02f1c5e97007c12237b9795af81e9387a8034103cda667593170af6f8"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000183.jpg",
+      "bytes": 45893,
+      "sha256": "be634bfa0b4d76977974789e797d97aa2b27a56804a055b255008aeeb50e21ac"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000184.jpg",
+      "bytes": 35783,
+      "sha256": "9e422ce1eb3e357b7ad5da3eff83447db22e7f0a4982c8b869c9aabfe42a4146"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000185.jpg",
+      "bytes": 92820,
+      "sha256": "3955024d232c801b2354b1ff731ec779bee95386c961acd8c7b8bf9710be5c6b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000186.jpg",
+      "bytes": 45994,
+      "sha256": "9ab9685be650442349d10f55e4fdfb18db60fcbd37dcb3932f93155cfa8241b6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000187.jpg",
+      "bytes": 264320,
+      "sha256": "a4818a9876f99012a9ab73cad9a14fc897968002f66ecd9c917b511a7ad238ee"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000188.jpg",
+      "bytes": 63437,
+      "sha256": "f5eda7050a47fdc54f2ca09f144d736176e1cbf8ecb2ebe63df6d333705c8c47"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000189.jpg",
+      "bytes": 31297,
+      "sha256": "0274d39e8686a33dbf6c7fb45c27fbbcb27cfb7aec22e87fc00092026e9c492c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000190.jpg",
+      "bytes": 27361,
+      "sha256": "4e367d8e3032dc5452fafce01178614474a7ed8901d58734ebb138c07e07770f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000191.jpg",
+      "bytes": 10920,
+      "sha256": "3aab7c9ec9f4103b4db4a6b1fbb7afd27b941934962be1241eca3c1aef816411"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000192.jpg",
+      "bytes": 15625,
+      "sha256": "c1287c2ff45b53c5c9a071f92bc6b7810b7188d592c79ba3638074f6b5ffb7cb"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000193.jpg",
+      "bytes": 31281,
+      "sha256": "d9183d195fdf60123d8f964b3cdf11a8bb4313925756691265b318512dc34b74"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000194.jpg",
+      "bytes": 40475,
+      "sha256": "053deb57283b8ab849aa21c8f2d9164c0806687bd133834b3ce4c6fdd578013f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000195.jpg",
+      "bytes": 18654,
+      "sha256": "62287eca6120dc43ebcc868b6d36ae810fa9d0f43d1c633156b50e06265278e5"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000196.jpg",
+      "bytes": 114242,
+      "sha256": "248ed0554361e3be0f023483734c1be9fcc2479d474adaff9360b761fa8c99f1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000197.jpg",
+      "bytes": 29073,
+      "sha256": "45724b751f2db0152e00aa5c25e9717b001a0cb63ef3c6af0b24fb5331f36cd6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000198.jpg",
+      "bytes": 48065,
+      "sha256": "38b02f69f9b2cfb659d81e9de078801169830316eed154b24e5107392c3296ce"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000199.jpg",
+      "bytes": 29377,
+      "sha256": "ea9221b0fd2102ed2c5484f255a420f22a02bae2b68ebf679d122d3402dfa18a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/test/ag_000200.jpg",
+      "bytes": 35326,
+      "sha256": "4dc263fb2826d60e678419ce9d92ab6bbb188fbfbee6c9e44062a0a4a4e2fa0d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000001.jpg",
+      "bytes": 41087,
+      "sha256": "6ac4b95e95abb335320ad6f2179d8e6413e4d074a485c7f57205784ed8ce3980"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000002.jpg",
+      "bytes": 24410,
+      "sha256": "edb9c76b00c4b0c766b4d84b15861aa087a7c16ae85781d42f4a68f476ffefab"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000003.jpg",
+      "bytes": 264617,
+      "sha256": "cc0909669edaefe45b04c2ae8b18f2f0e6a01bf6dfef9587000e2f95fa56b572"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000004.jpg",
+      "bytes": 32086,
+      "sha256": "6af13044a33dbbe3a259aea4db9f9f1a69915996725cb0b4ad5622288824efe7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000005.jpg",
+      "bytes": 38546,
+      "sha256": "76e22abde62cdf4f4943b0925722da21cadec26c2445a1e792015deeeb48aa2d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000006.jpg",
+      "bytes": 49983,
+      "sha256": "8d7a65562cec7b4aa3f955d1876e729cc0977beca24173feb880468a00b539a1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000007.jpg",
+      "bytes": 41733,
+      "sha256": "d4dea45f830cf5944d49c3a3e3f5d2c1d3ef199b6c621b378e51584365a44b4b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000008.jpg",
+      "bytes": 28967,
+      "sha256": "c30ee1f41e8bde3efd9518a17b7a108ef273411653cb718952c6585d34186685"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000009.jpg",
+      "bytes": 32339,
+      "sha256": "48571c36e17818b0734e9c18f647d1c2ae5023d7174f6a4189a355f6d17e03df"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000010.jpg",
+      "bytes": 175833,
+      "sha256": "7d9b2d71e00072925b2f7c9c64119962f9fc8d88c30059b6e5f1af116dc53bea"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000011.jpg",
+      "bytes": 262579,
+      "sha256": "a07adfcf07b117a49c10e29f8ffac63eb0a3f612de752d8ed676ca9016852521"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000012.jpg",
+      "bytes": 26184,
+      "sha256": "7f061739f0f00ec90683bda9a99995d880191750aa947f09f17128eca4253e03"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000013.jpg",
+      "bytes": 31408,
+      "sha256": "3b75cb1bbf1fde8621f45510dc844ee04a5e56dc845882d4e30d949d796db296"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000014.jpg",
+      "bytes": 9833,
+      "sha256": "6bf915c98507780f42fbbe6bb3b0eb4e297bd40296abe1419b7b94c7d12366dd"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000015.jpg",
+      "bytes": 172356,
+      "sha256": "d1ed7746cd01f58ab3aff5ec514a7e5ab043d98381c9e0776e3e76163d6f1c50"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000016.jpg",
+      "bytes": 47625,
+      "sha256": "01fc09e5848fa50007d4d8d9c659e94f38375fccfd7421f8b3dd5c5489f38316"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000017.jpg",
+      "bytes": 37312,
+      "sha256": "eec4d625102814c529e9b970f649a7a122df542884c934b3707edacb92804834"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000018.jpg",
+      "bytes": 33956,
+      "sha256": "2b93c6e1666a2c6aebced73929f6ab89c33894430cdb629153756424a6d37a25"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000019.jpg",
+      "bytes": 53055,
+      "sha256": "a093daadf89741af378290227756d9b7fc4190173fb99d72f91b0ffaaee16f22"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000020.jpg",
+      "bytes": 53343,
+      "sha256": "51e42d750ffa72eab0e58ea11bfe5ad39be5cc8f81a162e4240b0b2b36707601"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000021.jpg",
+      "bytes": 43957,
+      "sha256": "b836d4bf7cd20b3a16ccb8934a4bc246316b136540fae94c75c346504fca705a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000022.jpg",
+      "bytes": 20175,
+      "sha256": "f4beb52c012d92cfbe20c64815e7ac14e23eb69f2aa1e10fd1ef40c4b5988ac4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000023.jpg",
+      "bytes": 166062,
+      "sha256": "39e17cf82de6f2e238c54144c2af9fe155ab1006852a7fee9862ffba63fd66d1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000024.jpg",
+      "bytes": 28140,
+      "sha256": "4b800e503e98f472b3f0f1e463591b82c78d36372064c263efb5d00ee42adb0c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000025.jpg",
+      "bytes": 28760,
+      "sha256": "02b5a634901c9f4a832992fdf6841ebaf878a61d2c4ebbd340d66e2047c09e0e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000026.jpg",
+      "bytes": 42788,
+      "sha256": "c78fe29fc9fdfa9bd1a4255aa7e5b0d32bbbb90f436ba4765be76ea9bb7e096f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000027.jpg",
+      "bytes": 99660,
+      "sha256": "3fa2e0393f1763fcd56e978a1c75723af7d40b5edce3bb88d14a45872f7546cd"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000028.jpg",
+      "bytes": 136354,
+      "sha256": "7ecbafc856701f2cb22673d847d9671aa7255db8ea4b841361676dddb9383dcd"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000029.jpg",
+      "bytes": 9498,
+      "sha256": "6e73d1f646d67b467245e7d62bddf7373bb14437e68784ef12e689b9332cfb1a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000030.jpg",
+      "bytes": 46098,
+      "sha256": "abcd1faf2c50810f0867401fc55160d85c1836836b5bfd3a63acc62f34dfe3f0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000031.jpg",
+      "bytes": 46011,
+      "sha256": "bfa1291b49539fe0e6e1175576741b412d51246363ef9978d6fae241fcfdace1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000032.jpg",
+      "bytes": 29796,
+      "sha256": "4a6b8e71b78e125a625b173eaaf597e1177da4d1ea17765bd002a2942f04ceca"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000033.jpg",
+      "bytes": 129907,
+      "sha256": "c328e4e234144a5ab892d4f6adba15faf804cf0837ef57eb20320e70e36c198a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000034.jpg",
+      "bytes": 38125,
+      "sha256": "67af8fcce6b62ba1f2365a30570e43c2a2e300aff15106664d25f60bae659cfa"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000035.jpg",
+      "bytes": 30471,
+      "sha256": "223bc0cf8117650c1e6e1b2dd5605dac3f94a44a508321f49cedd32b4e79d50d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000036.jpg",
+      "bytes": 35903,
+      "sha256": "3d0c3ef8d41a61156f217765257bcb98e5dd04cd6f084614be383658dc066289"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000037.jpg",
+      "bytes": 209593,
+      "sha256": "a9d95afbcae6666eccc68094681f67a3690c3bd6a293e3f22ee752a2ba0470e1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000038.jpg",
+      "bytes": 25357,
+      "sha256": "58a5ff70727e21c030575e8b3992f061ed093bee8378c49da054c1001eebe1ad"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000039.jpg",
+      "bytes": 172777,
+      "sha256": "8a9c4d4c6cdb134b8c35ae92f0a5ecace11747906e4401a9fa93257e5af255c1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000040.jpg",
+      "bytes": 16954,
+      "sha256": "4f0f3ad0ad2e305b4eaa3a79161cd852dc883be1a7bc073363a857955a7074ca"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000041.jpg",
+      "bytes": 29434,
+      "sha256": "6a5d9bf895aea6c77649d8ba0868eb5b0b6b4d3eb664e61cc13adafc3fde578b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000042.jpg",
+      "bytes": 98226,
+      "sha256": "af03df3194bfc9aade758808279fc5bc363855a9e474a605484053d0a8df6a2d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000043.jpg",
+      "bytes": 50931,
+      "sha256": "69c82150492cf53701a8d406681125cdc97b02d255d1ebac35e23f8dc8d96b80"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000044.jpg",
+      "bytes": 124296,
+      "sha256": "370f85dec26923fc47d9c1216ea236f2a7e1e33665b5be1920b9b9a5553acae6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000045.jpg",
+      "bytes": 28601,
+      "sha256": "d060afd5423adf0d7684fafea36caba566618b2347304be1e257303601d601cd"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000046.jpg",
+      "bytes": 126575,
+      "sha256": "9960289f11a288a5af3a641834b68d16e9975cfb6ddb2faba108a0617cb42940"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000047.jpg",
+      "bytes": 38640,
+      "sha256": "e2be668f9c1ab1a2dfb6c2071980d1f9cb7f2156b5bb5c37ab37b9b852f6ce26"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000048.jpg",
+      "bytes": 42368,
+      "sha256": "c72fb1ffc74e46dcf21644720300267c7b525239f3a64792ac2807654cb9413c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000049.jpg",
+      "bytes": 25268,
+      "sha256": "9055c36030433196d244cdf3a2811f5462ba00f278aeec9e51ea6865bb92dcd7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000050.jpg",
+      "bytes": 36776,
+      "sha256": "17d31386df7e7b9985b03819bb85404ff2b09fa7e14f68d26a8a40fc738fff77"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000051.jpg",
+      "bytes": 31081,
+      "sha256": "8d833de91a6360dbdb1e530bf9a846bfdcd8ff20d78203409d75a3f576778aed"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000052.jpg",
+      "bytes": 66602,
+      "sha256": "fc0eb1afa980510ea736ccb3510524c20832d7baa71e5fd89ef21145a52716e3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000053.jpg",
+      "bytes": 224741,
+      "sha256": "4c4d591778c22e2ccd16ee6dfcc19223cb8ac5d2b2f5adc109e009e5d5fcddc7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000054.jpg",
+      "bytes": 207474,
+      "sha256": "50edcaef4892a4f12e769314250e02496cba6e950e1855418ad91ed6501ea616"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000055.jpg",
+      "bytes": 29021,
+      "sha256": "c6ce70616197edbaa7e4eb67ed182b8ccaf2d796e374a9e99eafe7d4dde3b143"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000056.jpg",
+      "bytes": 35983,
+      "sha256": "50020ca9636b339f393c21c1fc9689b4169c51c789427b37a68d9356686e04f0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000057.jpg",
+      "bytes": 30286,
+      "sha256": "394290f09655ab8761d988317fe45b84323e50a52683f05054f505810b235c7b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000058.jpg",
+      "bytes": 210478,
+      "sha256": "2e2941e330eb3c8dfcf530134581f3e9420865e13bac2c2eaf355e84935d0746"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000059.jpg",
+      "bytes": 150811,
+      "sha256": "93d116fc51036511ca691f2331ea676c2ceed2effee93fb3d6f6880dba1ef645"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000060.jpg",
+      "bytes": 26613,
+      "sha256": "ad425ea0dede0e4dd47ad01c4142ac43fbe2cc98d837d71703f8f7137085f03e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000061.jpg",
+      "bytes": 22673,
+      "sha256": "9a3222c7c00b2b492d86cd3566f0a729b47d36d028be9aff04c82c57700ba304"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000062.jpg",
+      "bytes": 131796,
+      "sha256": "49793b082906134eb1526fd7d38b8820d05cdb4fea6f3389f7abf5f021a9661e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000063.jpg",
+      "bytes": 42197,
+      "sha256": "46dfe30f232dde5930944eb3b28ae7f80a480b26c29347c50370b013c1a84d48"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000064.jpg",
+      "bytes": 43624,
+      "sha256": "9ab1714f6a66763c4e7560a67f9fe315c3cd724689410f650615d60470c63a9d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000065.jpg",
+      "bytes": 40999,
+      "sha256": "58c108a5bf9bd9f9157ea3bbe7472e7480db83b1958f3f6aa696f4df41ac8eb0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000066.jpg",
+      "bytes": 38263,
+      "sha256": "5ee89652c3f2747698fd5461037374a29dfe51ff2f8212e46c07f6061855d3db"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000067.jpg",
+      "bytes": 126205,
+      "sha256": "d7587454a7c10c2cd853c76aba3239e2e6e3c1578d09b73c11faa024b1c50c23"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000068.jpg",
+      "bytes": 53315,
+      "sha256": "f6706202db477b0db0ab3a93f2d4b63b74c09fc1298e88c98d38da29af80d179"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000069.jpg",
+      "bytes": 45759,
+      "sha256": "fbf3b745cc81e9091e231b748968f6ab5b428c57e7cd914b3f59f1e99a7a109e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000070.jpg",
+      "bytes": 23049,
+      "sha256": "0d94ed4578ac331aeb235b1f5ce46112d3ccbc930a27f4cf6bf1c18e83256e64"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000071.jpg",
+      "bytes": 99149,
+      "sha256": "8ea33901db914e54fa8205bbcfc84ac9f6f4d673d382c8f936abc206a7127a3c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000072.jpg",
+      "bytes": 36400,
+      "sha256": "25703e0ced0f86088f72c0bac070c5f3cda03f498f4f3e481aa9cb2e713566bd"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000073.jpg",
+      "bytes": 36791,
+      "sha256": "600522ac7951c5cd3f6354aff68f92cca452ae1a2f1a9ef0190892c1134642b8"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000074.jpg",
+      "bytes": 62321,
+      "sha256": "d4d386c85a8cf5e489d171f5f9f69dd5664ce3a66fea3464f3106e4e06982db3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000075.jpg",
+      "bytes": 141357,
+      "sha256": "effc5aa2d32ae0364cd3885ee20a246a3c90f4d1c5f780b24eb2b5c6b4e51eb3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000076.jpg",
+      "bytes": 32899,
+      "sha256": "f54d199736ce10ccf3c3897e972344f6313bd3ea696587c5010f9addf8131100"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000077.jpg",
+      "bytes": 27654,
+      "sha256": "c921d7baa3ed3f4d04f252a47ab455a8b37b424991f320ed284ef1cad5062d7b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000078.jpg",
+      "bytes": 41200,
+      "sha256": "4cbcacbd9ee6193bd8ebd2ba9ad9c365611b0b47a956edef649d253b40c67972"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000079.jpg",
+      "bytes": 20893,
+      "sha256": "eaa4f13a3333a5eee889fc52137778c0e269330322e586fff60a61a08e3328db"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000080.jpg",
+      "bytes": 103356,
+      "sha256": "65650ce82148b5df050af127abda210e5cf6486f5d3939f8775af015fae5465f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000081.jpg",
+      "bytes": 30661,
+      "sha256": "0b9c4c7171fa9bdcc30c6af93c2892fe3441c89d59d11af198d72e49b649acf7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000082.jpg",
+      "bytes": 25300,
+      "sha256": "216817189ebded207ce90c2ef124af5814b6440e3a92101688633b3270a135db"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000083.jpg",
+      "bytes": 77275,
+      "sha256": "befee8586fe3791fb76b10a5b1096b7a9476f096f388016d543a9c737ffc41a4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000084.jpg",
+      "bytes": 37170,
+      "sha256": "2463c10622057c50892cb07d2f299a53cde15416375b316e8892913a1f87c753"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000085.jpg",
+      "bytes": 42523,
+      "sha256": "48f5a690c901163b8fd2518e5ef733debbcf02628bc5e77c88ee38183f5f47c1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000086.jpg",
+      "bytes": 50970,
+      "sha256": "6a73ae7b9fa0b4fe9e51bf4d9ffef5218dfc25b197c69d36868f22146f1bdc45"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000087.jpg",
+      "bytes": 43609,
+      "sha256": "89573c62a1d19a8bde0c82d7fdd67f4fc7f35ab09497296fbee712c4f95e8aed"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000088.jpg",
+      "bytes": 12092,
+      "sha256": "074f33f250e8994c2bb642ed7a4bb6b75a6c614f3f4b0cd879a48feb0b55c0c0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000089.jpg",
+      "bytes": 14985,
+      "sha256": "3c002829d2b41a557ef7ad70cd79884c75f572907a3bcba19b5160030a069177"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000090.jpg",
+      "bytes": 26022,
+      "sha256": "8ec4a9bf6c3a410262c0c1ce6867af2f9e314e821f649e45f58b3c72c58d9f16"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000091.jpg",
+      "bytes": 48436,
+      "sha256": "86fad6f406db006baa4e7a6a785442fef332b98a65f13cca3b955c8c8a073dfa"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000092.jpg",
+      "bytes": 23040,
+      "sha256": "2fddf63c027b5faaf0760a0759044e0d05f2fb7ca52cadaf707c2450bdef4a0c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000093.jpg",
+      "bytes": 33035,
+      "sha256": "2af8b41e3cb0ba2a5f723d7fbf3045e4d6260595a69a41ecde611de36192ca3d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000094.jpg",
+      "bytes": 76638,
+      "sha256": "bae1432b624839f6f4fec0d386d69d40adb19688613f0e2adae08514492d8de6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000095.jpg",
+      "bytes": 17996,
+      "sha256": "dde2524b12ac8688d925a5a6f8bdc2a4360a799fa2eeb832f354a0a1cc6377de"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000096.jpg",
+      "bytes": 60035,
+      "sha256": "9d72c75ca30bf9de428c2574dd94b1882a6ad7fededca81424ede2cfa8b6289f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000097.jpg",
+      "bytes": 49187,
+      "sha256": "06116e48a593527ed1afb9ce047b2e2d57c5c6f53cc508ca3fbb4d7c3fcc2135"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000098.jpg",
+      "bytes": 61366,
+      "sha256": "cd7c7eb94489183ec2561695bc1961cbd60fdd4a04781fac0939e523913e0ac8"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000099.jpg",
+      "bytes": 42528,
+      "sha256": "f3299114a218f332e8256573b30c0da9f1d4b2aa0b312d275191e4a6fff88596"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000100.jpg",
+      "bytes": 33637,
+      "sha256": "28c11be6b156fd2f85c364ebbea4f04444483dd99bfd7de11ffc0dea10caa4fb"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000101.jpg",
+      "bytes": 22735,
+      "sha256": "6941a6bf42f9fb27c085b2be215199a6a59ee7d8e494d15a7a414a6599279aab"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000102.jpg",
+      "bytes": 36985,
+      "sha256": "cb1075e3c804bee02ed9250f6d64f0e7b67b6546d2f28ea7f3ab9277687c42c0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000103.jpg",
+      "bytes": 57991,
+      "sha256": "2d1562980b6ddb51ff1c301fb67564d342358ca766ac90d39a90a7eab5157756"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000104.jpg",
+      "bytes": 21008,
+      "sha256": "39d060fdf588a7fd05163b36e5f9c4150adcf9cff67f9397d29cca47103c1055"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000105.jpg",
+      "bytes": 36229,
+      "sha256": "61cc1bed3685ab2cdf1ac09d20f463c98d14f99315467eae4b62ccb5fc5c7d60"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000106.jpg",
+      "bytes": 13069,
+      "sha256": "ed12fc0a7f78ecd777b5d88b264e617b249a0489a0c43c2b55039404ee1d308e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000107.jpg",
+      "bytes": 26894,
+      "sha256": "08ef259e910a89bef532b26fca6f75408ec10d82e85fea88ab378b4888ed8b47"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000108.jpg",
+      "bytes": 15863,
+      "sha256": "d597dd5b8549695ed14bb38e38a2ccd09c93a4af5c47e1783647b40f8f73f3cf"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000109.jpg",
+      "bytes": 85232,
+      "sha256": "f94c1aa9032fe5ac44a25ec1bfb85fdcaedbd67b2d5c6be6ee3a940bb3e84884"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000110.jpg",
+      "bytes": 22421,
+      "sha256": "2cf6a43098f1e97775892b3eeb01210021f47c06f8f958b6fcb303e56ec072cf"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000111.jpg",
+      "bytes": 12299,
+      "sha256": "acfb43256099297250ed4dd8f6f442994026e6dfff5664d83afa49d716cf7f31"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000112.jpg",
+      "bytes": 34400,
+      "sha256": "73bce19202133622a06a1c1bcba25de3ae59775d4347256105d158220ea047ed"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000113.jpg",
+      "bytes": 31139,
+      "sha256": "e0fc9def6281a6f67537e71e0a32b94e37a61de749dbfd128e8dea2c46422a70"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000114.jpg",
+      "bytes": 43248,
+      "sha256": "bd3a854b4db410749838cacf032c78696fe08f719af63b93075ccd8d8a6770a2"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000115.jpg",
+      "bytes": 54335,
+      "sha256": "cc4d15cf1b74ef0d3e77c45a1542c5c9ba43af1a0e45c31af257c0d2991ac36e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000116.jpg",
+      "bytes": 57254,
+      "sha256": "8e4709875f7ad6610e1525fff000a7f3b7619334971844a9684c033d938b746b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000117.jpg",
+      "bytes": 12903,
+      "sha256": "b4bdf5c956491a411c55b334440642f2e3c6d2a19d3295eed5ed26e077caabc3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000118.jpg",
+      "bytes": 40354,
+      "sha256": "8221d4dc9db7e24051489a91754027f3400a2d68c41f4259ba0152715f8bed38"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000119.jpg",
+      "bytes": 55265,
+      "sha256": "8ac7f07a0f6a49903cb68929952a363b789ac6ed562113b853fd881bab9cbf61"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000120.jpg",
+      "bytes": 12549,
+      "sha256": "d9bf40e9cdf2a9094f1f4cdc9ec577a105e8e083bf4fc34cb8c01e1ba40018d2"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000121.jpg",
+      "bytes": 25009,
+      "sha256": "cfd6421a06d09837c15064159917e1c26685e079db4b9cb63d58f2b7b535037c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000122.jpg",
+      "bytes": 26480,
+      "sha256": "47be0d7bb7034548f2ce5f28a8c3ce2f6850e0b73875d815fd07c9a439a8d6f7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000123.jpg",
+      "bytes": 25601,
+      "sha256": "5e003c8a279a332c78e258313533c9db1b5b48f9e7073bf915287f10f3614450"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000124.jpg",
+      "bytes": 29646,
+      "sha256": "38053e5de7b3b122ca1aa34c92ee0ee762ea6ff8c1dc623fd25a8385826d3eee"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000125.jpg",
+      "bytes": 13495,
+      "sha256": "30952152b1f209afcce48014a0ead92005e9c2273ebd64cf4679ad68fe6d080d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000126.jpg",
+      "bytes": 25637,
+      "sha256": "6691590c9a5027fbe7a33a3dd1b479b0858442eebf303ce73bc8631f02253c49"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000127.jpg",
+      "bytes": 18252,
+      "sha256": "037e3bed2143e9b0705ce9e475f21a63b8785e429ba6be7d3b7c40859b5c1ed0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000128.jpg",
+      "bytes": 19534,
+      "sha256": "be18eb1011b5743a4c3440d27ef62768b9cd6341167aa9e69809abff17227963"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000129.jpg",
+      "bytes": 23555,
+      "sha256": "132eef57626c2896d716b808fa67c50a76bb63672719e54651e2ab96a3a6418e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000130.jpg",
+      "bytes": 20268,
+      "sha256": "08f9404e0e63414535f5e5cb8fd4acb8a0236c18cbe9230906789c891c156540"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000131.jpg",
+      "bytes": 33593,
+      "sha256": "dd8ce53f0265204a09b15c8866342b8ba9ea2034b29c41665598d3a193629b7f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000132.jpg",
+      "bytes": 24377,
+      "sha256": "21d865fcb39c34317f545bd332f46dc02d856373a7f70f51ae57b2bd9d665411"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000133.jpg",
+      "bytes": 23111,
+      "sha256": "f2613138dec433c6197405d0d3a445c0cb8030883612329fb1c0241c8da34191"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000134.jpg",
+      "bytes": 26378,
+      "sha256": "b4835fda26f12545f01aa312b93dacc3f61eebdde2ac36a1de137c08333eecd7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000135.jpg",
+      "bytes": 36484,
+      "sha256": "a476fa9410881ae35eb15edf444e66069dd040b51233aa7d92b4e4282d43e21a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000136.jpg",
+      "bytes": 20610,
+      "sha256": "e87a3184e7adc4c841394a244c16bbd79fec0fcd979784c00f35d35a52f2ab34"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000137.jpg",
+      "bytes": 25382,
+      "sha256": "03d0027830cad3eb6a7d3d9d94e635ff4812eb58b084d3eb2d4a1b2a16ef6ada"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000138.jpg",
+      "bytes": 21119,
+      "sha256": "7616db5b242d9bba1e5d8d10b08373dffb4578cc2a9fc9a16b5999a45e8d71c0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000139.jpg",
+      "bytes": 22640,
+      "sha256": "2f40a22e9a855543cf0ee4376051a58ebe51bcadd7b943ad9bc0a9e3f1e61e10"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000140.jpg",
+      "bytes": 28139,
+      "sha256": "dfef3609295a1d12ec50ce08ad794a91c05b5cc040226744603e82201daaa4b2"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000141.jpg",
+      "bytes": 20774,
+      "sha256": "1a64f1515bff954e732ee9c61fa168f96e02e96ebf2093ee75a480a4d24e7939"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000142.jpg",
+      "bytes": 64477,
+      "sha256": "80958f9609a43f7951acba574c518639bd28ee96077b4521ff51221a2a4eb5ec"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000143.jpg",
+      "bytes": 23831,
+      "sha256": "da77157dc720b425fdec3cf7ef3bf5ededc1a8925a09c792539ee075c6817060"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000144.jpg",
+      "bytes": 22547,
+      "sha256": "486a5cd7b9988ec3af820277127d436d5b94df34b53e49e01fc4d0911bb5ed24"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000145.jpg",
+      "bytes": 30268,
+      "sha256": "3038552b9ce9e88dd48f1d64d81e3c0356debf7a0978da7e43ce34c8d9f04527"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000146.jpg",
+      "bytes": 39437,
+      "sha256": "b0ab5321056dc741e9a4e97cbd5758646dbe7b421eb86b45de1454760731eea4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000147.jpg",
+      "bytes": 20632,
+      "sha256": "8d54b2a142997d7abd776277f8ec7ba6bfed447a0f1f09bb4398c9388a62bf1a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000148.jpg",
+      "bytes": 34425,
+      "sha256": "dd239cc61cc34c2be1e7f75b4ed6aace477c0319be5a577dce0ec885cee82ec2"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000149.jpg",
+      "bytes": 19077,
+      "sha256": "e49fc63b99c857bcba152fbc2b7eeffdcdecbc02c98ae0553ab18037f9834042"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/train/ag_000150.jpg",
+      "bytes": 39893,
+      "sha256": "208a6082576a52b46875e3c875ef15461148a06ab05a5cbc7b5ed1f26d0eee0e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000151.jpg",
+      "bytes": 191674,
+      "sha256": "4b8b4c1fc6a368f25d3ccc9cb37ff02e787a1f41e6a49503184d36a87c1e129a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000152.jpg",
+      "bytes": 84066,
+      "sha256": "487d8c892f1708a910812ba99ee1574e4a4c3f595ef524ac93f8d5d50a1efc2c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000153.jpg",
+      "bytes": 203352,
+      "sha256": "00098a32a39af03d8ccfef9de4c71e7dbee72b0b9f0cf9c5578d74505acd7302"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000154.jpg",
+      "bytes": 134395,
+      "sha256": "bd80105e4bc69dc33989ca616ee66c9af6951fab5c26d4019317ca09fd29fefd"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000155.jpg",
+      "bytes": 116950,
+      "sha256": "5488bebd8bb81076e482fbc53a09a0f5a8f88bc4cb20e6661e36cbd3b7b2d89b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000156.jpg",
+      "bytes": 224648,
+      "sha256": "5f7ccfc473c121df199fcb112263849d570979ed7d4b6471113c21288cb30eda"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000157.jpg",
+      "bytes": 144572,
+      "sha256": "f45b1bbd362e238c9453739bb9cd8dd41ffb0f7d78ac3b8003045d38ab1c4efa"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000158.jpg",
+      "bytes": 36833,
+      "sha256": "b03fde2345e847c25528d0ea0dad77bbbfa512cb4072d6e1c43a541dae3731e4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000159.jpg",
+      "bytes": 19837,
+      "sha256": "fcb52d50197b593dde68e31379f813b48ab9ce5dba51230b26b3b5ff73e83b2b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000160.jpg",
+      "bytes": 48590,
+      "sha256": "46d1157aa11e2becf3aab3c769e8377ff874b7592aca27c65b208efee2ff1361"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000161.jpg",
+      "bytes": 18769,
+      "sha256": "40022b25170b06826bceeb04aaf8638e72216b22db5288bd17d7d5c3665faec8"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000162.jpg",
+      "bytes": 248897,
+      "sha256": "7bfa282faaf1ef12ea0e28d4a82e02051a1aa33088a16921d6d5eb0cb26f9f2c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000163.jpg",
+      "bytes": 36499,
+      "sha256": "4f7283f9abdfce5b8579ae08f52c9dd63a5852edf0f6c5cd3456e491306dc996"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000164.jpg",
+      "bytes": 23905,
+      "sha256": "4e44b7c8b054299b2d51eb1c45c199513c2e815c581f37a34a86e605c1e51245"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000165.jpg",
+      "bytes": 32396,
+      "sha256": "87cf699cc5c92c68fa25822f819e9e52e655efeb8a63fb95e92e324a7e269a4f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000166.jpg",
+      "bytes": 26695,
+      "sha256": "6a00b925abcd0ef54a0b05fb7a81012a47ee9a1d465b7ab92faccf55e4d79b51"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000167.jpg",
+      "bytes": 15567,
+      "sha256": "f29faa3c1922f24ca589ddcf0677228c6ce45468a1ddc9f231d1a1114867730c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000168.jpg",
+      "bytes": 11266,
+      "sha256": "a5451de3adeb771a1b5f36559c508c08079bf3dae304b9b719f5e57e7e636864"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000169.jpg",
+      "bytes": 36075,
+      "sha256": "050096605020c31ead543f1111b6bd81b2887254d16d658f69bd95b89a53b24e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000170.jpg",
+      "bytes": 30279,
+      "sha256": "5d3c0b5b8ff374bf5402de32d6d334a18f5a9e96e74848b9775c18dac885ceb9"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000171.jpg",
+      "bytes": 95967,
+      "sha256": "d36af4769ab0cc25fbbef1d7d958693cacd6730352a96a6bd8acd4bc131e4f0a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000172.jpg",
+      "bytes": 30758,
+      "sha256": "1397c068ade3f393c9891d59675fd0460ceb2b777f4760be8ae5d6c659426e09"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000173.jpg",
+      "bytes": 42485,
+      "sha256": "761cee306cb64d72f48fdd92e3be1bf1bd0f0d58e7bd815f519811539df20064"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000174.jpg",
+      "bytes": 40518,
+      "sha256": "9cc1a8de71c902a943de8bec891c9cc5438ba7f4aea6dbcca8f84a70ef4f7485"
+    },
+    {
+      "path": "datasets/aeroguard_sample/images/val/ag_000175.jpg",
+      "bytes": 22439,
+      "sha256": "c6f2e9940257459254027d42693b041c46396786638a0fdd4d44fe9e53962547"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000176.txt",
+      "bytes": 46,
+      "sha256": "2a91540f75c9ac19977f30b2d06be40ece2dc975ce9c965ad15df80a4b288d1e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000177.txt",
+      "bytes": 46,
+      "sha256": "8de96d1796b65952fde0fe7e16fe0a458494eba4b3f9abaf8b58c393e27658e7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000178.txt",
+      "bytes": 46,
+      "sha256": "71c08d39741549797fe2cb9e4a5003e14327d6a46df8f263ef1509a4950a3202"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000179.txt",
+      "bytes": 46,
+      "sha256": "5ec0d6ee87f3b8d9cb107c504197b88559054449ac48f0e775b5b45fb4701386"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000180.txt",
+      "bytes": 46,
+      "sha256": "fe8c6937dec5b8ab8c32438f712a2ba130c4fcd138198b6ceb38d6d2f24db355"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000181.txt",
+      "bytes": 92,
+      "sha256": "f5edb35f9e392b724a53b514197b62f4f07e194324fd2811fa91827bc13584bc"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000182.txt",
+      "bytes": 46,
+      "sha256": "b2458ebdc1665c95a3bb21b54171643f362526acda4866996d39510183c6e6b5"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000183.txt",
+      "bytes": 46,
+      "sha256": "003588580ec60da83da1bb04de71593951d0884e4c7c26d13cea45d445da1ed3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000184.txt",
+      "bytes": 46,
+      "sha256": "6584404d3be5f31030a236d3c61bc2953f4ec6a04e1701d160d634078d24d276"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000185.txt",
+      "bytes": 92,
+      "sha256": "6f949250fa595ef258b9999e2de16c4aaa8f6eca6982aa8b5cb5201598970557"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000186.txt",
+      "bytes": 46,
+      "sha256": "5aee86337eefcb2f9fe0065a3260ef6ed182fc0b70507102c08d7d1ba24c556f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000187.txt",
+      "bytes": 46,
+      "sha256": "1c1c2c6a3642f0056b633011b25a293813c7973ca8b1f298b6f585952ca506e3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000188.txt",
+      "bytes": 46,
+      "sha256": "e7bba11bd631927c42b2d1090cd1af08ef1f438f415b82bacc6c997912884c26"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000189.txt",
+      "bytes": 2990,
+      "sha256": "2a874d5c80930680c87302d8e082ccee126133a10a6ecc77f3431f185161a446"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000190.txt",
+      "bytes": 1380,
+      "sha256": "b88703091fb46c124ce84e54349044f79cb373824482c9fd3238a1042fc5c011"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000191.txt",
+      "bytes": 92,
+      "sha256": "3aac6ebeb013e0229fb06a397d4b91c6b3a8f20372bc290617c4dedb035332e8"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000192.txt",
+      "bytes": 368,
+      "sha256": "80976e5175d2803276d854302fa89fc59189a4bc4e51db47d8b19268b01c6426"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000193.txt",
+      "bytes": 690,
+      "sha256": "7a0e108e97faabdf00f9f7b178412093fb16417a6c077f1c0e0dc54f8827e2ed"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000194.txt",
+      "bytes": 92,
+      "sha256": "d4443c152d60b8808291456c31d534b6508f43798281da0a9c8547e38d5b0f98"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000195.txt",
+      "bytes": 1012,
+      "sha256": "95f8f384577cf54b37b87ab8307e0d33f48ba51d34353a5b694e360282ca9303"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000196.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000197.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000198.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000199.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/test/ag_000200.txt",
+      "bytes": 92,
+      "sha256": "aa165fd94a7d2075678ad5274f070cff4750e743d9142c639ad8e34ed1bce4b1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000001.txt",
+      "bytes": 46,
+      "sha256": "e65fbaf0f332aba0a6582d8b4c2d82089a8a247e4abceca1f3ac6472210f33bd"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000002.txt",
+      "bytes": 138,
+      "sha256": "c12cfe0206d6aaf5b3ba3dabbe21ab13863a586d21c21c4cfe1fd4169ec098be"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000003.txt",
+      "bytes": 46,
+      "sha256": "aa8baa018dc38cdb1aa31f791694ea95d9425f01a0fe0e88e9c7ff025f98b7d4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000004.txt",
+      "bytes": 690,
+      "sha256": "302be22bf3548faac0f60841ea6ab89dc69ff3b0682ffc1b788c06115f1ed0cc"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000005.txt",
+      "bytes": 46,
+      "sha256": "fc42fee5f302de3fa9da3bd4d0856d6dde45b2d9c73966d8fbfa31704cb746e4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000006.txt",
+      "bytes": 92,
+      "sha256": "b42eec179677648e88908ecd7d6533e850acd89ed06badce237829f56aff3676"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000007.txt",
+      "bytes": 690,
+      "sha256": "16330b5421a3bd85306ffe4bf23b147db03badcf0f31a936386001ab4ab21033"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000008.txt",
+      "bytes": 46,
+      "sha256": "b8c91a7eacd361ec6b1ff76075c012e74249be58d3dbddfd37fc1b0a4aa6c4d2"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000009.txt",
+      "bytes": 230,
+      "sha256": "15b517c4af652665a8ff4419fd40910fb238d4a4ed609e882246a54a61326420"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000010.txt",
+      "bytes": 46,
+      "sha256": "397161c184320d00408048f1da13cb60868fa25a4ca71798ccac94e288b526ae"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000011.txt",
+      "bytes": 46,
+      "sha256": "92b038c9265f672807c2fd64780ed705d7645a3a43d353e0166573cd718e2918"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000012.txt",
+      "bytes": 138,
+      "sha256": "00721c47578ab8dbdeebb1953e14460cc78e7cfe0f0e0f7ca01c704bd632a84d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000013.txt",
+      "bytes": 966,
+      "sha256": "2a91f83a047e8dc2e527376491533d8e89c4b3797825265c0d8eca27ca9638bb"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000014.txt",
+      "bytes": 46,
+      "sha256": "986fa5d51fe0b2633b999614fbd5d9e0a06814137041c44b1613bed2e11e3a72"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000015.txt",
+      "bytes": 46,
+      "sha256": "053efe496a09c36eb8d737cd6ec431604854ed74f8924e35e40a3d011db90c4e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000016.txt",
+      "bytes": 138,
+      "sha256": "4f225c51b6563e64f30416f95247c24982ae8b197cb13aff765cda9b296a68a7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000017.txt",
+      "bytes": 46,
+      "sha256": "3f4208ec71a4ed825dc5c9f14b22ba2d1f083bd20eaea7b5a0e497afc6d433d7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000018.txt",
+      "bytes": 552,
+      "sha256": "80176daa77c5fb18858eef30e9b0723a82a738e0f5cecbabae0191a7bb72a1aa"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000019.txt",
+      "bytes": 230,
+      "sha256": "f7a96472554b8dd20a6c9b8d35f181eb801ee14293cdf8f4f475ac885ab999f1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000020.txt",
+      "bytes": 184,
+      "sha256": "34278f4d29862fc98d555d1b9a67a72f8ce0ba78de68224bfd607fa687772d33"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000021.txt",
+      "bytes": 690,
+      "sha256": "96c4b2d478ed6b84469f42b14bb158af546f0c49509afa28a08b017613c6f564"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000022.txt",
+      "bytes": 46,
+      "sha256": "c11b5494237505026fe77343c9f82ed98a1b63633e80cdbb35ce535c9c803158"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000023.txt",
+      "bytes": 46,
+      "sha256": "b7fa18fac297698c2275ba3c0248bbb80a6cc11e5f4fceaad1a179994c77024c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000024.txt",
+      "bytes": 460,
+      "sha256": "5118496a16aa2a6fdbfa57c11d58a205e634cb14148c8213f5904f362e9879a0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000025.txt",
+      "bytes": 966,
+      "sha256": "bcda36abf4bcc2f56502a4e7b710eeb1601da3966d29c1ffd6bacb95b2bad6bd"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000026.txt",
+      "bytes": 92,
+      "sha256": "f9e93bac9dff047bd455fe6663eb64057dcbb814d2bf5436c47b8d1f7052c07e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000027.txt",
+      "bytes": 46,
+      "sha256": "fcced08bb1a5d87066032df73eddce9f99ca47308a3707c791e2e798cc549edc"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000028.txt",
+      "bytes": 46,
+      "sha256": "018baf4dd4f0248b48f28e050a1fb4f638fa722f5d921dcf5db0b3d5a2ade47a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000029.txt",
+      "bytes": 46,
+      "sha256": "2725d1d97809716dcb5f7c1a6d41e5e8f4d7e405fe9ea21ae0a91da11b102ea7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000030.txt",
+      "bytes": 184,
+      "sha256": "0c28b108d04be3918087dd2698cd8d6cd6c848f6341850ef1469f8d64ec986f4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000031.txt",
+      "bytes": 506,
+      "sha256": "b3153d035393b2b87d5a868cc0eeafb3a0db26893f6ec401d867d730dc32016b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000032.txt",
+      "bytes": 276,
+      "sha256": "fe733964e2ec3adb0392e40de133734aa602650e769247d2f9f4c9f061d1c2b8"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000033.txt",
+      "bytes": 46,
+      "sha256": "fe0f604c72f8be232843191b24bbef67f08d2551e8de10e64646e63fdda8985a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000034.txt",
+      "bytes": 184,
+      "sha256": "799fb7147d923b6544ba6c49f6b3316533ea97732d7898a791484f66ce7b5f6c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000035.txt",
+      "bytes": 920,
+      "sha256": "1891b1735c56e2a576b760595eb02315e9aef98a41559999ae19b1e18acdbb54"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000036.txt",
+      "bytes": 598,
+      "sha256": "d7e660765c5cf57ba8d5e32939add4cf79ba8218ad28942d32714400c29f1d8b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000037.txt",
+      "bytes": 46,
+      "sha256": "cdee3bf554d6bfe363aeaae42e55db6d972f3d31de21a7f93deaff28b8be481d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000038.txt",
+      "bytes": 92,
+      "sha256": "52df8080b3d98d677e87d0365813ba9e1d065e42e98d60bbbc4eeac16f1d2dbe"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000039.txt",
+      "bytes": 46,
+      "sha256": "05076e3c3492cd6460e0e92e0faa019d8be3f8afca40e97d2e04edc3d3dcb000"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000040.txt",
+      "bytes": 92,
+      "sha256": "3ea2753cf0b702367b0d690fe835a947159273943d192f7f13a2059e202f9ae4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000041.txt",
+      "bytes": 1104,
+      "sha256": "73073367847bc718436caab034bd1bd29cdbcecef24f377748695f6c7f96c5b0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000042.txt",
+      "bytes": 46,
+      "sha256": "0912826fe63f964461e27fee642d77283d5378a8b6de6e8b590c5fcd38b65912"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000043.txt",
+      "bytes": 184,
+      "sha256": "ba68cece0f6e8d4317a3803d1c8a0d9a15c91efe637564e576e179889a05ce2b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000044.txt",
+      "bytes": 46,
+      "sha256": "065084db6867bab5a262c8f5b52ddef0f148aa5524364c09ac825bff4aa9b6cb"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000045.txt",
+      "bytes": 92,
+      "sha256": "9380d90768f19c853271e7ad511052ab2b71487ac949549569687329d2d6e340"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000046.txt",
+      "bytes": 46,
+      "sha256": "04dffcc79bf3e88524986f5165535549385e9231c9edfeb4eee9ec0bc0387950"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000047.txt",
+      "bytes": 184,
+      "sha256": "efee1e017190fef94de117fd6b4e92929a099a89050824ce7af17e7592b584cc"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000048.txt",
+      "bytes": 782,
+      "sha256": "19aad21601922ab3d5ed4f3ddf38a907fda9b20a84adf4a0c34010e3f2be6b55"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000049.txt",
+      "bytes": 46,
+      "sha256": "691560cb257e93b7348da3d7362ff59dbb1437e57ef0f665c72216c22a0576f5"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000050.txt",
+      "bytes": 598,
+      "sha256": "5b69814092f4d22887eae509e237ddbea4be625f373f342fc79c7684a57a6bd6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000051.txt",
+      "bytes": 782,
+      "sha256": "e6abc3e40f90dcd45d857c8dea776a41f51e565b8a641ba256f21e57c5aa5628"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000052.txt",
+      "bytes": 184,
+      "sha256": "e8fcf9ee6f9fde14badb6005d4062a982e1d9d4bd12e6ecad18f2f9570c09f3a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000053.txt",
+      "bytes": 46,
+      "sha256": "d69b7fc039ecad321bc49eed11ce5b3192a48df63c80b5a4e0b1c82611b2ed33"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000054.txt",
+      "bytes": 46,
+      "sha256": "2c9dc74e5d11e1efaac78eb8fc8cd800d6a35f10a5aae1076d6d462c84adefd9"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000055.txt",
+      "bytes": 460,
+      "sha256": "eef201326a757c5dc80450f7912a0e2eb3cea4e075a88bc429e3163543d7cbe7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000056.txt",
+      "bytes": 138,
+      "sha256": "c2483d1c1bce651bb70207a4a88f6e7ea897a05917073de29b7e148137680fec"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000057.txt",
+      "bytes": 782,
+      "sha256": "dbeae00d23aa2c0d1cdcfd6adb6c564275cb541d863d3750d45af65c2297921f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000058.txt",
+      "bytes": 46,
+      "sha256": "72df67f90dddfff53a50f204a41b65a3937f98bdfa5d8571fc08b8002895d5cc"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000059.txt",
+      "bytes": 46,
+      "sha256": "74e20c5f4ab3b1b1f7d27a3e836f9295f3a40d177522b96f18b8728eacadfdbc"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000060.txt",
+      "bytes": 92,
+      "sha256": "9b368112a78adae0bfd54eb91da8c3b0def2cbe472116bc5a7d31b72c14469ca"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000061.txt",
+      "bytes": 184,
+      "sha256": "a7c7797dffced4c5c2106398680fd0b40e632f17362364bb64848c39c762c689"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000062.txt",
+      "bytes": 46,
+      "sha256": "a43cfb0ca04813c13406018b9e1d1df1dda16b04ec1d7cf54f4b4b95fdf9addf"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000063.txt",
+      "bytes": 46,
+      "sha256": "f06710b928366062df35ada822a234e2aa3a956567e70e380545a4602bcdd0c3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000064.txt",
+      "bytes": 966,
+      "sha256": "424e5626936a20005aa5df84afc27118a4251093f67a1f38ae90568fd9511742"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000065.txt",
+      "bytes": 138,
+      "sha256": "5c262180a4e9e9ff86cb9b552d520c96ac3d5b1a802fcf2bea8bad7c2ffbee8e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000066.txt",
+      "bytes": 92,
+      "sha256": "25c87e231f4f6b5c5f6e79da4c381ece898681af9e2ed41b3ce982e83c315ed6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000067.txt",
+      "bytes": 46,
+      "sha256": "c2788c296d18b284ec8e7bcac86239983859a47f96d01b5e2bec10ee21ab369c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000068.txt",
+      "bytes": 230,
+      "sha256": "2b674fd22f6cf970f814d0cc4c78227628ff6fff947a7b36b8685241ae9a2934"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000069.txt",
+      "bytes": 46,
+      "sha256": "cead4b7e52a98dc07836fb7d96a6d9a3772d0ef0ecda25a18a8e95784225aa98"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000070.txt",
+      "bytes": 138,
+      "sha256": "57e873c97ea139c368c0e9ba9efbf05e5c62e15a0f8089b26f3f2041f8c23f43"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000071.txt",
+      "bytes": 46,
+      "sha256": "bb5ddb118c6f1364d72e1a8cfff4e5be1c276a4d2a6333290ad7b5de091ffe6f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000072.txt",
+      "bytes": 184,
+      "sha256": "a3160caed56607ed5559d3949e01323439f3784fd6575ff5eb44531e0e10dc94"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000073.txt",
+      "bytes": 46,
+      "sha256": "59e98b17cc204ac9d5a47940e2961c29442d68dda1846c471dac81bb55166bbe"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000074.txt",
+      "bytes": 138,
+      "sha256": "0d0728bb01f69cad96f4b04e90fc56b756d764adced1786482bed404dcbc644b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000075.txt",
+      "bytes": 46,
+      "sha256": "47623fbb0dac12c71ef36ebd601cd3f71de04114cc1da36d755fc9d841eeec41"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000076.txt",
+      "bytes": 3358,
+      "sha256": "f060f6ebc6c7ba3bdab4905b36ab9afaa547505edb5bfa58d9476dce3d5d78a1"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000077.txt",
+      "bytes": 5474,
+      "sha256": "46034a72c09684a3f3f45bd30161cdf0d10fd996500f149de3a3be8920469ba8"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000078.txt",
+      "bytes": 3082,
+      "sha256": "1e6ed2ca7f995cd609534927aabec50a94547c5e914248c012f67ee3bab16ee9"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000079.txt",
+      "bytes": 13616,
+      "sha256": "df2631e7b3199f89abb8e15699ba95ad5d4fdbb8ccc3dfdfcba97493b8b791f6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000080.txt",
+      "bytes": 2392,
+      "sha256": "8e840610ccb4757582537cda3b1da7bd9fafcd86be599d6fb2e2c93d9f3891b7"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000081.txt",
+      "bytes": 4968,
+      "sha256": "af1489321a2d7a05e24da3aecf7ae69232b5cdf7152150ed10aa903fa0996f27"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000082.txt",
+      "bytes": 3404,
+      "sha256": "7e5a2b20c9ccae179a1eb3927a43a46d28e655c828215fe7ab76281e01670b9c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000083.txt",
+      "bytes": 20424,
+      "sha256": "b739b34d0e0152ae06575b9921d143402131583d176dc170aa88b368c1e67aff"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000084.txt",
+      "bytes": 2898,
+      "sha256": "d138081fa2aa17742565f74c3dc182d16a96e9640e0cf8440596e9c83ceade82"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000085.txt",
+      "bytes": 9430,
+      "sha256": "2a93a0c1c4cb63d877242f9f8ba726ac163b038fa671990517f3ed3fe96deb9b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000086.txt",
+      "bytes": 3220,
+      "sha256": "36d561393b1ce139b6f1cad0d9e3c63f80b8c19c68a076a9b0e1fd8acb670feb"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000087.txt",
+      "bytes": 6118,
+      "sha256": "8e71e01b34491693e46d535208d832f6925a4faf82bef0cb64854cc49f0e4317"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000088.txt",
+      "bytes": 2484,
+      "sha256": "fbf1893e5163a6f130fd38d5293c13e8be20d62b8acccee7a6c7f6778aa9285d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000089.txt",
+      "bytes": 5382,
+      "sha256": "3a399c7b5a78768985e9dd13098da311892f3183f3df8b38b4f81eea045f6063"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000090.txt",
+      "bytes": 3358,
+      "sha256": "634bd7620182557aebdce8a3e9931264eb610010e658d7eeb3872574cee57a10"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000091.txt",
+      "bytes": 4922,
+      "sha256": "682ca0fa7aa2ca5f931234ce5807922a090cd63a2f0af9d37d60a1022e0fcf4e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000092.txt",
+      "bytes": 4048,
+      "sha256": "cdd5d3b95a6f2b6259ea80233ab4c5238fca10397ccec4b412f44cac1c745625"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000093.txt",
+      "bytes": 6256,
+      "sha256": "67eae71760f38d762867b155de1e10fcc95404db6e7e1af6faa1b5d1a4a187a6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000094.txt",
+      "bytes": 4554,
+      "sha256": "6fde8732d701e65611d397a187438302d39e6c8b7156c0da4c4fca2ae9af67c3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000095.txt",
+      "bytes": 2852,
+      "sha256": "4214a2bb671e2138c9575127ef88a1b46f50e65d454a8b4e19728091bc4e8259"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000096.txt",
+      "bytes": 598,
+      "sha256": "59b0556aaeefd0ca2ed211921314350b1cfc8ffb1732f386c39502c90d6747e2"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000097.txt",
+      "bytes": 4830,
+      "sha256": "12fe52b3bfa5103a43ade49c3cfc8a77910806a313ef56d28ddaa88af96687bc"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000098.txt",
+      "bytes": 644,
+      "sha256": "c70f0b19d7fee762e3fc225365f9d72452a7bd77af26ffb385fe316636ffbd1f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000099.txt",
+      "bytes": 184,
+      "sha256": "97c831b5da51e9eaec4ae80a420e901e69c4334ecb8321d268f3a24b4896b636"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000100.txt",
+      "bytes": 3266,
+      "sha256": "c31b1a21ca8442b388b4986feb3024e9a54c3b572398ae2bd5de901914911372"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000101.txt",
+      "bytes": 9338,
+      "sha256": "7c54efe9a0009a117b79ccf219b3c360c02a86eafd23a75cd03d3f87f0ded353"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000102.txt",
+      "bytes": 690,
+      "sha256": "3a31198220a529bfc005cf311727a3fe909489ed00e393a05784fa7df2dcf439"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000103.txt",
+      "bytes": 46,
+      "sha256": "90d15e0a8438cf069bf7145a3b0aabb53263952d65aad8c602b37e6223688575"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000104.txt",
+      "bytes": 2530,
+      "sha256": "71da7970fe24debfc2d4ef5a442cc3364a8accfb9babc4aeddd087bdb87b15c3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000105.txt",
+      "bytes": 552,
+      "sha256": "41e036cd94180432ef1b3bb6c96db102e5060507bc0f40a858c6546fb2d7c83b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000106.txt",
+      "bytes": 46,
+      "sha256": "dbe674cb3c1a415fc14aada1df745dfbe2738c17825b3712bd5f48035d06489f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000107.txt",
+      "bytes": 6118,
+      "sha256": "fd4a784724b26213bb9ff1b539b0129e7efd2bf9828c5044292252f1bb538fc0"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000108.txt",
+      "bytes": 92,
+      "sha256": "8ab556094245bf9beda2e452d1f326d1efa59afcb9fd60297be22469e9075e6c"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000109.txt",
+      "bytes": 598,
+      "sha256": "7523b5a2763f213fdea7360eae6c490e2e4d686cd8e582d6e8ad184956e926ab"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000110.txt",
+      "bytes": 3266,
+      "sha256": "afa6290403c772feb27c93257d693a35983f4c6481f60d75fac7b81f003bb69e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000111.txt",
+      "bytes": 46,
+      "sha256": "b2258803e842f2114a5cf881ef1ed72e1046d4ad40d4db4ecc419f0c600b99fe"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000112.txt",
+      "bytes": 5796,
+      "sha256": "5b08c37d196b7dee049e396345aafd64043e3fd8134f7a5be7e014c4c1aaadf2"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000113.txt",
+      "bytes": 138,
+      "sha256": "12e1683067191380fc607a1696c8d3e0f5c513b0f08b0c4d068751fd6c615d55"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000114.txt",
+      "bytes": 506,
+      "sha256": "206d6f0b1da462e2043b7a70b173ebfb33471c7b719f51a30cd38c74ffddd30f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000115.txt",
+      "bytes": 13662,
+      "sha256": "f1dd050c6fff912f6f9f5719ff40a9839c6705857342c771685f31fc996c716f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000116.txt",
+      "bytes": 138,
+      "sha256": "bff24d51f40109a671f1cf4f249c42958d1a6d6e8a50dc30292958c11ca77a9f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000117.txt",
+      "bytes": 2346,
+      "sha256": "17c0cd1a9fa9d44733737f6aba55d6c56aee80766720562a5b60c359b9fe9106"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000118.txt",
+      "bytes": 506,
+      "sha256": "6493ac6b6f1395f882f9f95817c56c44e880302abde983596d12af48ccc4d91d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000119.txt",
+      "bytes": 46,
+      "sha256": "ef21d7be1ed89246a3c6a7ef32cddf1915b0ba0deb288bf82db4dcbfc807b8df"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000120.txt",
+      "bytes": 2438,
+      "sha256": "9b54da86316f35ab94232ec9539ca2d64af1addb6d71b1aca85ae7858e8ab6a4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000121.txt",
+      "bytes": 506,
+      "sha256": "91913f04920fd06486330d2f2970391200144787d0ff9a88d46cadf14a6f866f"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000122.txt",
+      "bytes": 92,
+      "sha256": "b85c5de8eb736f6dcab9934381041c630f37d098eae077391eeba1d66ef69ad6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000123.txt",
+      "bytes": 5704,
+      "sha256": "70f46265dc70952c76307cc5b70ff920de5c78a86e769a68af7c670b6c16d41e"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000124.txt",
+      "bytes": 46,
+      "sha256": "3cafe1cc85353aeceb544325799ecab9060b8d48b0d366f1b5464a7a3b0c91d5"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000125.txt",
+      "bytes": 2438,
+      "sha256": "12fd3857d7f144261e7f4291dea83f3ef0856145a87312c6de4c404d01ce74b8"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000126.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000127.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000128.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000129.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000130.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000131.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000132.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000133.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000134.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000135.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000136.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000137.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000138.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000139.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000140.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000141.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000142.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000143.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000144.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000145.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000146.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000147.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000148.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000149.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/train/ag_000150.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000151.txt",
+      "bytes": 46,
+      "sha256": "932e19255622826e04b80ba2ef3ded363e071a8437ef5e99d2ae923a9cd0f7dc"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000152.txt",
+      "bytes": 46,
+      "sha256": "86648418ca5ce498051e9e8e49795b28ff841a7c6c46beccc2687e881109fe71"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000153.txt",
+      "bytes": 46,
+      "sha256": "ae5667a6eaec1bf7332ccf3677027e42bf396e0485069457ec7074f41a77b95b"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000154.txt",
+      "bytes": 46,
+      "sha256": "1735ae70fb5df88c636f4e43099a0b093ffde303bb498d59a42592b81d3f1bca"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000155.txt",
+      "bytes": 46,
+      "sha256": "c7e06d3bbbb2dbfbd2c69c2493df637f1b773ba934d98d85bc58bc845da86ef6"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000156.txt",
+      "bytes": 46,
+      "sha256": "2a96a40553faeba59b4686a137bbf93e6f871873467bed2d98e2772db45c9901"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000157.txt",
+      "bytes": 46,
+      "sha256": "140ac728ab795a5f57abc9e5a56df707b85862c138056a5b9f89bff83a05617d"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000158.txt",
+      "bytes": 92,
+      "sha256": "ab3b7fc8716f5f35c09cbdbf40eb643c94955c175988e9a53007196dc3ea4536"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000159.txt",
+      "bytes": 46,
+      "sha256": "ba8d78b856199002a2a68f09545200070091f58d19b4122416962e74918bcf72"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000160.txt",
+      "bytes": 92,
+      "sha256": "4f5b5a9efdcf223ca7d9f405b38f7bac3492fac7f1b338180f0a4cd18d9065f5"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000161.txt",
+      "bytes": 276,
+      "sha256": "3361857652ddf158324d899b8493c9914cb7c1c2d9952f36615913be84bddeb4"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000162.txt",
+      "bytes": 46,
+      "sha256": "969f96e57f0c1ae30d479730fa904b742e2bc53ef3d715b2679e6f2124a477d3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000163.txt",
+      "bytes": 46,
+      "sha256": "56661b5a9e4d8e286db90b3e8dea1e2d2fe3a9214071e0e509c7464a1462adf3"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000164.txt",
+      "bytes": 506,
+      "sha256": "d799834e77ab04276957f47df208aa00741d4a378d0924322d0155fa27a2cdda"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000165.txt",
+      "bytes": 1380,
+      "sha256": "ff9abec47eb762230edc89dff6e426a477a9de604053202cc9c7f1c2a736e754"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000166.txt",
+      "bytes": 46,
+      "sha256": "c41add205ebf6b924128d81af8e34783b91ad3ddeab11bfd83de0d517bc596d5"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000167.txt",
+      "bytes": 92,
+      "sha256": "c7094257bcceca99052f8b876917375215121e33ab580741ea6e831c9d444549"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000168.txt",
+      "bytes": 1058,
+      "sha256": "d52ec087de98132cc4d042f5d20d101336ee3e1ce7f9ba5c986815e4853cf939"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000169.txt",
+      "bytes": 46,
+      "sha256": "429a23402d30d40f2c39b3fd51ea0bf469daf270c6e3cc1f8a7ae651fa237324"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000170.txt",
+      "bytes": 1380,
+      "sha256": "c26cd27fda41c60e555a77d7c9c2652465ea0937ab1dcade03db0dbee3892abe"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000171.txt",
+      "bytes": 644,
+      "sha256": "2a34098b3c31b91f1fe02330ed6c2d488577abb9a9e4b5c8d212ca23f0708029"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000172.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000173.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000174.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/labels/val/ag_000175.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "datasets/aeroguard_sample/manifest.csv",
+      "bytes": 63076,
+      "sha256": "436890a14a9a1d483c01ce02fd74b8daa56bd68e90dc3d3a453f182db08b54ba"
+    },
+    {
+      "path": "datasets/aeroguard_sample/README.md",
+      "bytes": 1094,
+      "sha256": "dcba8d1552a83ed01ff82747ab82970757919377a36b4cc5595e88035a8e189a"
+    },
+    {
+      "path": "datasets/aeroguard_sample/summary.json",
+      "bytes": 816,
+      "sha256": "f9b79e44122aba6921d3ef658f9fc55f0d5995ff64df5aa17a4ef57b166b0361"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 643,
+      "sha256": "a855559dd7ae9fc3a599548f73523f70ab7d06249491d845e4c3c8fa72ddf4d0"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 4702,
+      "sha256": "aeac1579cf4276dac545f7b86c5af444c124316bb50bcac4a3763a43eb2e470b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8920,
+      "sha256": "0386b1d7ae906da65b65675e26b32f39280744ec2cbcb70de6dd23379d1d8d94"
+    },
+    {
+      "path": "RELEASE.json",
+      "bytes": 1832,
+      "sha256": "c55a476c90e4801274c676048fc787a2f847c02eb39f974d026d6c6b05f136ca"
+    },
+    {
+      "path": "requirements/dev.txt",
+      "bytes": 66,
+      "sha256": "a0717abd979dbf3616682f3259b53060532020bd2cc66ff897c0523626fafe51"
+    },
+    {
+      "path": "requirements/paper.txt",
+      "bytes": 113,
+      "sha256": "617b8065b149272501b2800051b6a6e61ac36277f1f8678941fd0f37ead2ba66"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 273,
+      "sha256": "05fb29eee7dafaf6c93db8fd4ba4b8424c40403cb1486bb49789aa1224ca46ea"
+    },
+    {
+      "path": "tests/test_bootstrap.py",
+      "bytes": 2298,
+      "sha256": "6c8998ad5ce28476a7be85c215b90639182c9ef20ffbb7518e39b5ede6023f53"
+    },
+    {
+      "path": "tests/test_checkpoint_protocol.py",
+      "bytes": 6916,
+      "sha256": "55e30867724155fe06326da2dd81f9d826e707acdea1d481c3c9a837e97f6541"
+    },
+    {
+      "path": "tests/test_core_math.py",
+      "bytes": 9069,
+      "sha256": "d076a08d12c6be77d926f9f8fa1e99e0d48c9762ec717d90f93e17852dd91858"
+    },
+    {
+      "path": "tests/test_feature_ecdf.py",
+      "bytes": 1282,
+      "sha256": "5151956f8b6b3185eb09a629d137ba3f75b931e199359bba7495ebd74a4c2308"
+    },
+    {
+      "path": "tests/test_mechanism_controls.py",
+      "bytes": 2250,
+      "sha256": "35554c046979279ab9d4aaf2ea220e9dde5e1519f8363fb24fb305073b9723f0"
+    },
+    {
+      "path": "tests/test_model_integration.py",
+      "bytes": 4864,
+      "sha256": "4c0bdddc90a8c4a9078b716ad0f2182dd76db1e04f5a2fa0f2b4984ca1be2fcc"
+    },
+    {
+      "path": "tests/test_onnx_export.py",
+      "bytes": 1417,
+      "sha256": "baf8ad211ff2968861f6e485bb10493bf70bc4c532a88097e6e47fb1eae1a63a"
+    },
+    {
+      "path": "tests/test_paper_evaluation.py",
+      "bytes": 18041,
+      "sha256": "a7ccf87db74298742431394c952efa8ee71dd6fdd5dff8253d169fee2010d655"
+    },
+    {
+      "path": "tests/test_tooling.py",
+      "bytes": 2356,
+      "sha256": "ae3a1f9466009872b1e2e32551e2cd606a1baee083a4716f0088c11e08bbebe9"
+    },
+    {
+      "path": "tools/aggregate.py",
+      "bytes": 2305,
+      "sha256": "fefe1e25855c323c279721716d1913336120cf6a9aabf8d645dff84489ee7f67"
+    },
+    {
+      "path": "tools/benchmark.py",
+      "bytes": 7373,
+      "sha256": "fd66f45cc47a5e2649d59e09d3662af3eedaf9538418c09c79798e71976be372"
+    },
+    {
+      "path": "tools/bootstrap.py",
+      "bytes": 10297,
+      "sha256": "a5a646d6e88ff695ad5a36fe469526eaea3044e2280ba8ff0d88107c069152e3"
+    },
+    {
+      "path": "tools/build_sample.py",
+      "bytes": 6004,
+      "sha256": "3e56ce70257910b20b20c3e2f532aa106ef56ef1e7d223f86303ff93aa6be2d2"
+    },
+    {
+      "path": "tools/common.py",
+      "bytes": 2080,
+      "sha256": "c6916ce979cc8e8f9ea4127898ca7e5aa9c70e1314f84ccc652964bae259b691"
+    },
+    {
+      "path": "tools/evaluate.py",
+      "bytes": 17892,
+      "sha256": "c3130d6b8a1a37df1996c48edb0ba5a61eb76e6245ccc036d016c8e2d6a0ac3d"
+    },
+    {
+      "path": "tools/export.py",
+      "bytes": 996,
+      "sha256": "b6ee6a8f7b26581b30fbd14935c29fd2ae7cb52b7f1e77d173ad5b00e40fa088"
+    },
+    {
+      "path": "tools/feature_ecdf.py",
+      "bytes": 5272,
+      "sha256": "14159730276754abfabd0547c020878bcd6aedb4cfb3ded2ebe81a73b5e2b35e"
+    },
+    {
+      "path": "tools/metrics.py",
+      "bytes": 343,
+      "sha256": "5e431157d9afb9aaa87e8e27bd4e8378aa3f1cdfd0b1ee5e2a0676ea7de2250b"
+    },
+    {
+      "path": "tools/predict.py",
+      "bytes": 1100,
+      "sha256": "dfe8d7ef23fb59405cce77b8560ba46cd1f1351f4ac0a48810e52f5c7a96b3e5"
+    },
+    {
+      "path": "tools/profile_model.py",
+      "bytes": 1958,
+      "sha256": "dbd060ec20ed9ce0e162c9821d205e04ac52a817d0d6d92c8bcd28ff836644b9"
+    },
+    {
+      "path": "tools/train.py",
+      "bytes": 1966,
+      "sha256": "314a3547bdece8fea259c392802910aa0de5e78a559ec47e2cf02f78a9a4d570"
+    },
+    {
+      "path": "ultralytics/__init__.py",
+      "bytes": 630,
+      "sha256": "cce458c96f5523a4b10d13a3bc2115d8bcde4707548c9c8edc075484e04bd5a6"
+    },
+    {
+      "path": "ultralytics/assets/bus.jpg",
+      "bytes": 137419,
+      "sha256": "c02019c4979c191eb739ddd944445ef408dad5679acab6fd520ef9d434bfbc63"
+    },
+    {
+      "path": "ultralytics/assets/zidane.jpg",
+      "bytes": 50427,
+      "sha256": "16d73869e3267a7d4ed00de8e860833bd1657c1b252e94c0c348277adc7b6edb"
+    },
+    {
+      "path": "ultralytics/cfg/__init__.py",
+      "bytes": 17476,
+      "sha256": "ef3fb9080ab41cc074fdc29df5c307efd9e6af822889ddc32cec698c716c2077"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/african-wildlife.yaml",
+      "bytes": 296,
+      "sha256": "7e88de3c022a98f2709e1cdc870a7ae358e9c675645a819bd8eb31f6134a1a98"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/Argoverse.yaml",
+      "bytes": 2029,
+      "sha256": "d0b9b68262aa6c7a2dd34b8c5bfe92c47b4e2c3084195a4c98c0b238cac5e26e"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/brain-tumor.yaml",
+      "bytes": 253,
+      "sha256": "f3bab32ce28dc015e310499082892118eb67ef8f233846d36fe2ea92a8f754a8"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/carparts-seg.yaml",
+      "bytes": 649,
+      "sha256": "916c58850ece11b40f170f63ffbc47b1efe727dfffa0eea0c9e2aff431d4ab18"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/coco-pose.yaml",
+      "bytes": 754,
+      "sha256": "9581f938a5ca22c52adea603d3506ffd6628c54b6873d94bb47d483011ff8d1b"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/coco.yaml",
+      "bytes": 1800,
+      "sha256": "7d08b4bb92dffd9b9528fcef75bb990e8a691c80bc0f70a6e0448627e5c150b0"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/coco128-seg.yaml",
+      "bytes": 1324,
+      "sha256": "7e9f39a51d47bef77c32c4a88ac53d387e2182fbd23c83391eb27e57a3d3edcc"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/coco128.yaml",
+      "bytes": 1316,
+      "sha256": "35bb686a0d79d0f128e613d9eb6d89924042193f45de14752460403434468b12"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/coco8-pose.yaml",
+      "bytes": 323,
+      "sha256": "cc18283863372e044fba18e9b7ea4fcd895f43db480323768696560f11702bb4"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/coco8-seg.yaml",
+      "bytes": 1310,
+      "sha256": "48b545d4ed639827d29fbdc1514ba6c65bbd3140ce81796b128206466c2caeb9"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/coco8.yaml",
+      "bytes": 1302,
+      "sha256": "1daca2a1cdd8f18285ff940551f727406075feec17928967173899ff062c1b0d"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/crack-seg.yaml",
+      "bytes": 244,
+      "sha256": "85bb776c59a6fdf4978215d204236de40cb89ef604409c9e2d789280c7fcf498"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/dota8.yaml",
+      "bytes": 471,
+      "sha256": "f0e11c2ad5d5cf7c589b32dadaf3e32d4430755ee411c3f878b432cbbf3c6492"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/DOTAv1.5.yaml",
+      "bytes": 517,
+      "sha256": "a5adf4914fcfa152d354efec05d73ca254859bfe5c2cd891a6d8e10b45c71689"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/DOTAv1.yaml",
+      "bytes": 491,
+      "sha256": "73213dab7f4fd2d6ab218f83926bcd9095ab427d9869936a0c228bfc63c6fb43"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/GlobalWheat2020.yaml",
+      "bytes": 1180,
+      "sha256": "f225e3342e0785f154698c9af1d369883c54ade73f84d1ee386f3d38cb8caaa1"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/hand-keypoints.yaml",
+      "bytes": 327,
+      "sha256": "5fba15603681f0efe9cd16d3a66227d7c8dc323a523c023192115f72a09be84c"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/ImageNet.yaml",
+      "bytes": 41762,
+      "sha256": "225101ca135595f720c452335eb72f4ca8587649043634056544f5b4911c2324"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/lvis.yaml",
+      "bytes": 28966,
+      "sha256": "dc00e7891d6026a23809ab0755a54a8b78120df5c8045688a0444d9547958c89"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/Objects365.yaml",
+      "bytes": 8349,
+      "sha256": "319e9673d3cf26db3e4308cb9d9776694b6fe4811faa5c3f5bee5c6ee39db48a"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/open-images-v7.yaml",
+      "bytes": 11409,
+      "sha256": "587089000757af18d44690b78321d25c8437c48c496a1b49a8f7a3be698c7354"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/package-seg.yaml",
+      "bytes": 248,
+      "sha256": "2e388dcc4eec08e5ee524474480687f955c0b15fc3590fe4818f44b26b1105c0"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/signature.yaml",
+      "bytes": 230,
+      "sha256": "5bfcaf86d8b172615daf6364a52bba75d8861a00b9fbae9cd493af1cdaddc21e"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/SKU-110K.yaml",
+      "bytes": 1555,
+      "sha256": "0a0e00ca64a5fd971f2680b15fea3931530798e61ac24cbd5bea576e1f6393a3"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/tiger-pose.yaml",
+      "bytes": 282,
+      "sha256": "185eed8b572b3475990462d0dd990c3d262b6f27916d737685338137b6e7e9f9"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/VisDrone.yaml",
+      "bytes": 2122,
+      "sha256": "9ad9b1e964c8ac044b5ce08d2a291d9f7e2dec1f1e3f0da462f1703249d89cc6"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/VOC.yaml",
+      "bytes": 2709,
+      "sha256": "a2bed49a0d9f311fba77be91a5196857582e7860a896abf469a875404b449186"
+    },
+    {
+      "path": "ultralytics/cfg/datasets/xView.yaml",
+      "bytes": 3745,
+      "sha256": "a20337d0fd0a67b262a731dff48838f1e6ed7f0e5e52c7b204a6b9a5433f7d6b"
+    },
+    {
+      "path": "ultralytics/cfg/default.yaml",
+      "bytes": 1664,
+      "sha256": "0a3d620b7625face85eeb7a64c1bfc17c8ce97d0d5d68844e98d43340d1282c9"
+    },
+    {
+      "path": "ultralytics/cfg/models/11/yolo11-cls.yaml",
+      "bytes": 548,
+      "sha256": "ecf84a83aea1fc2c9a9b5f4b6f5a5e98cf2670da22799d6c17c26d51b9aac8a0"
+    },
+    {
+      "path": "ultralytics/cfg/models/11/yolo11-obb.yaml",
+      "bytes": 995,
+      "sha256": "0c02f43ca3ff51edc0999ffe55aad468a3d9caf61ee38ed279b1700cfde7c8ee"
+    },
+    {
+      "path": "ultralytics/cfg/models/11/yolo11-pose.yaml",
+      "bytes": 1023,
+      "sha256": "c87ceebf7073452d015ec6737341893fe445f074be21e3a860645842a8360c2e"
+    },
+    {
+      "path": "ultralytics/cfg/models/11/yolo11-seg.yaml",
+      "bytes": 1005,
+      "sha256": "3b829882df63bcab8649fe3ce14cec5a6929d7e4a432816a81d33e2f44122cc8"
+    },
+    {
+      "path": "ultralytics/cfg/models/11/yolo11.yaml",
+      "bytes": 995,
+      "sha256": "3ca1053fd9b8b403223f192c502232adf9ac9c1dbf17877960821b40c903d186"
+    },
+    {
+      "path": "ultralytics/cfg/models/README.md",
+      "bytes": 3348,
+      "sha256": "7ea7c0ecabcbfc61c34da681d5364448a7302f9fc07c19b2ef8e4bf7435a926c"
+    },
+    {
+      "path": "ultralytics/cfg/models/rt-detr/rtdetr-l.yaml",
+      "bytes": 1206,
+      "sha256": "15d7f2c4d20ed7866fa4d2eab1f37051691e3c8b9fba815b33a384f6aa9510d6"
+    },
+    {
+      "path": "ultralytics/cfg/models/rt-detr/rtdetr-resnet101.yaml",
+      "bytes": 1020,
+      "sha256": "2e5a7095becbf53f36ed3eed30c6a37042386e1d1f3fc5e7f38428a23f679335"
+    },
+    {
+      "path": "ultralytics/cfg/models/rt-detr/rtdetr-resnet50.yaml",
+      "bytes": 1019,
+      "sha256": "a934188b6358cdf430a9e0cfc8882bf1355bdc91d44af0a7667200f10688f663"
+    },
+    {
+      "path": "ultralytics/cfg/models/rt-detr/rtdetr-x.yaml",
+      "bytes": 1404,
+      "sha256": "b9423120dc4ab48fed49a9b9dc921de8553bba9a89f8f8cf1106ffc6007728f0"
+    },
+    {
+      "path": "ultralytics/cfg/models/v10/yolov10b.yaml",
+      "bytes": 888,
+      "sha256": "195ce9792ad0cfa4544a00fb1d3eaa0cd166e85be3917022342276812ec23dc8"
+    },
+    {
+      "path": "ultralytics/cfg/models/v10/yolov10l.yaml",
+      "bytes": 888,
+      "sha256": "92922ff4f90f2f8cb40c9ac3025ee0f0ed8a971bc99940d57acac00abbf72b20"
+    },
+    {
+      "path": "ultralytics/cfg/models/v10/yolov10m.yaml",
+      "bytes": 879,
+      "sha256": "2683c86c65f1a78a499eeb3a3fa2f1f18d42a25d5cab2dd46b04e250df8d0c52"
+    },
+    {
+      "path": "ultralytics/cfg/models/v10/yolov10n.yaml",
+      "bytes": 874,
+      "sha256": "3da1dcb7d77659f8142dda21b4e95c30f26323d458ef396d0f080d1e04b03021"
+    },
+    {
+      "path": "ultralytics/cfg/models/v10/yolov10s.yaml",
+      "bytes": 883,
+      "sha256": "f17f2de59220d1908f0381a0426bf46f74093b3c5b9def83db06049b7ac1e71f"
+    },
+    {
+      "path": "ultralytics/cfg/models/v10/yolov10x.yaml",
+      "bytes": 891,
+      "sha256": "7587eca8634e0fa0cde6fe81dc4b10fac64d80d42cb54a46f192b0ac03e57c01"
+    },
+    {
+      "path": "ultralytics/cfg/models/v3/yolov3-spp.yaml",
+      "bytes": 1092,
+      "sha256": "531151cd30ebb2d414a3538b2b70f4ae74dd4f256ccbd54ca66b20391879820c"
+    },
+    {
+      "path": "ultralytics/cfg/models/v3/yolov3-tiny.yaml",
+      "bytes": 827,
+      "sha256": "c740e407926d2571f73724b38a7fb0623cd0cfca5322ce3b62733abd671e0295"
+    },
+    {
+      "path": "ultralytics/cfg/models/v3/yolov3.yaml",
+      "bytes": 1087,
+      "sha256": "b63ab2c8d7087963c6815faba7a502b0eab7bd38e44e428e370fce239b5dffce"
+    },
+    {
+      "path": "ultralytics/cfg/models/v5/yolov5-p6.yaml",
+      "bytes": 1273,
+      "sha256": "9ed2e3bf2b8eab91cb4d42c3e34e26b0685af0c38466ae93fbc89054eb0a89f9"
+    },
+    {
+      "path": "ultralytics/cfg/models/v5/yolov5.yaml",
+      "bytes": 983,
+      "sha256": "506341a2117cf1ba6d817596f308549eb721c3bc3b7dc148b6f7fcea686b8854"
+    },
+    {
+      "path": "ultralytics/cfg/models/v6/yolov6.yaml",
+      "bytes": 1162,
+      "sha256": "247e6713880837404e4e502b0b4c32f72c249436e63ab0030b3d249634a8f115"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-cls-resnet101.yaml",
+      "bytes": 478,
+      "sha256": "7bef3755dd643fde129c7f0657cc24b048c27a86d9a4e0091ef4c181a5f53537"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-cls-resnet50.yaml",
+      "bytes": 477,
+      "sha256": "2dd7236a5c5af644b48cbee7357d96d0535ab86e333e16d8169be2c1bb230aa9"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-cls.yaml",
+      "bytes": 508,
+      "sha256": "3b5a870880d96af4375eeca71c8931c1b3c392f96c7738f041b70d8b0f134ee0"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-ghost-p2.yaml",
+      "bytes": 1186,
+      "sha256": "9d98436292300656700cad8e28f7fcbf7cc6971e022d4c148408df0973b78272"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-ghost-p6.yaml",
+      "bytes": 1257,
+      "sha256": "73a60fc99c3b0f88520a9e944087d9e85f1764e69e9de0e90e767a7a7259c00f"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-ghost.yaml",
+      "bytes": 981,
+      "sha256": "3896cefd2b4d78d70ba906bf4d81a0e29f4d6212e9540c4266a210584ab21c56"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-obb.yaml",
+      "bytes": 918,
+      "sha256": "7795e720d17b01313d4a6a6bcbddc28a3b54e67eef614b8f74a38455c4780329"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-p2.yaml",
+      "bytes": 1111,
+      "sha256": "0dacc434bdfbc3e78e539a7b6b4ef54940f5646f69146c2e298649591906e1f0"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-p6.yaml",
+      "bytes": 1209,
+      "sha256": "61740b29086253d637f57b742b88cccde0ad1e22808bb7e3dfb88a462115a1e7"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-pose-p6.yaml",
+      "bytes": 1236,
+      "sha256": "bad7ab677d84daa8c8473ef948422091c1a12a3df3280e51a738a2a72e7eb14e"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-pose.yaml",
+      "bytes": 945,
+      "sha256": "4b72c4c73d1f335feee579f0d21805ae378bc9746459fa1efa5a32d82152d131"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-rtdetr.yaml",
+      "bytes": 925,
+      "sha256": "1baa8dc43d6e253b628e5b90a00404cfcaaf215e176c9ef72beeed843284a128"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-seg-p6.yaml",
+      "bytes": 1219,
+      "sha256": "bc21362c4ff3893fee19f5016c82347f702e6125964777931816983e4deea35d"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-seg.yaml",
+      "bytes": 928,
+      "sha256": "c54421989d17e60b8b0a25d9edd361a43e5b5f43b9318ebef723005b2691d775"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-world.yaml",
+      "bytes": 1031,
+      "sha256": "8618e898f2720b13a381ed54e34f86a1ecab9a897014d81e03a6ad2eb38f8717"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8-worldv2.yaml",
+      "bytes": 983,
+      "sha256": "ec61d9fade650658c87f5c7fd2d9207dd47a72eb6dff5d4c46e606ebfdbac0b0"
+    },
+    {
+      "path": "ultralytics/cfg/models/v8/yolov8.yaml",
+      "bytes": 918,
+      "sha256": "40b6c3802b58926e908d9a6f8686e49d51cc7c0a8945a3f03ce946e222ba9bfa"
+    },
+    {
+      "path": "ultralytics/cfg/models/v9/yolov9c-seg.yaml",
+      "bytes": 928,
+      "sha256": "a23a7a06feddc337b81a66dfd4607094ccec6a68f37755203f3c873fac0a3e38"
+    },
+    {
+      "path": "ultralytics/cfg/models/v9/yolov9c.yaml",
+      "bytes": 918,
+      "sha256": "5a762ee7ee8f51cb0f10eb5710ec9dddfe6477a1dc36b337c620cd46b06d4496"
+    },
+    {
+      "path": "ultralytics/cfg/models/v9/yolov9e-seg.yaml",
+      "bytes": 1722,
+      "sha256": "2e497adbd7953e17aa60595bff362aea94137bf0833521dd7a10aac867f83a37"
+    },
+    {
+      "path": "ultralytics/cfg/models/v9/yolov9e.yaml",
+      "bytes": 1712,
+      "sha256": "023c4f1dbc230f1691b61631c9085a806342cb610e70167d36b00de21debbf96"
+    },
+    {
+      "path": "ultralytics/cfg/models/v9/yolov9m.yaml",
+      "bytes": 917,
+      "sha256": "2c815bcd2a9eeb9e8ddad9ebc5d6c1c4907c7a264e32a6a383e34c7e428d61a1"
+    },
+    {
+      "path": "ultralytics/cfg/models/v9/yolov9s.yaml",
+      "bytes": 899,
+      "sha256": "078b721683a5d8023e3276687ebcd742496c27d238597cfdc20f4cbd72b55da0"
+    },
+    {
+      "path": "ultralytics/cfg/models/v9/yolov9t.yaml",
+      "bytes": 883,
+      "sha256": "e309f3f34c07647269e49f725ca06b72a284068910e04cb1b22ece659041be06"
+    },
+    {
+      "path": "ultralytics/cfg/trackers/botsort.yaml",
+      "bytes": 278,
+      "sha256": "ae3957db0b550accaa18c5360f5a1ab68a36ed9334978b9caffa18763a16ba1c"
+    },
+    {
+      "path": "ultralytics/cfg/trackers/bytetrack.yaml",
+      "bytes": 188,
+      "sha256": "68ea61153f66ecdd2df5ff38f225c670635b7c7ef0af0e343584f7f03a83d1dd"
+    },
+    {
+      "path": "ultralytics/data/__init__.py",
+      "bytes": 616,
+      "sha256": "5467be0131bb8f7e45e00e2bf099b37df8e586f7b824024f8116b96a1293535f"
+    },
+    {
+      "path": "ultralytics/data/annotator.py",
+      "bytes": 1206,
+      "sha256": "a48821a871871e65acb90f2288d613e176c676ea281d285e66642c61e168e380"
+    },
+    {
+      "path": "ultralytics/data/augment.py",
+      "bytes": 40328,
+      "sha256": "e1eb891456063d32593c620eeec5011926ffd229edc5c67ca12094091a4a7f88"
+    },
+    {
+      "path": "ultralytics/data/base.py",
+      "bytes": 9596,
+      "sha256": "d86fb878aad305de8741603422fa4e31c14333e3b81e12f34d458bccc65f2e91"
+    },
+    {
+      "path": "ultralytics/data/build.py",
+      "bytes": 5430,
+      "sha256": "e2e25cf3e9374dc42c05a53b2ebe9a0afb04bf46befcea6a72552dd5c8ef2677"
+    },
+    {
+      "path": "ultralytics/data/converter.py",
+      "bytes": 13628,
+      "sha256": "d61e94f7ebb15ff45f321ba15fd1225f67405f260d2c822bef867ebf6da328b7"
+    },
+    {
+      "path": "ultralytics/data/dataset.py",
+      "bytes": 16053,
+      "sha256": "d828e2206baa1b926176ce7c9bf06b9e2427eff5500a2218a19981997c2ee8eb"
+    },
+    {
+      "path": "ultralytics/data/explorer/__init__.py",
+      "bytes": 113,
+      "sha256": "f98de6d5979d7a939052ffca5bcdb3686c6f53f3d21dcbb051316a1bd06102be"
+    },
+    {
+      "path": "ultralytics/data/explorer/explorer.py",
+      "bytes": 11253,
+      "sha256": "dde9b04a586bae5f87b4df01ab909e561230116d80715de1eabe96f8adb574aa"
+    },
+    {
+      "path": "ultralytics/data/explorer/gui/__init__.py",
+      "bytes": 42,
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "ultralytics/data/explorer/gui/dash.py",
+      "bytes": 9229,
+      "sha256": "62588988497bd1f9f697bacaad208e4b23ff5ad543c7381746ef2a1b804d6754"
+    },
+    {
+      "path": "ultralytics/data/explorer/utils.py",
+      "bytes": 6554,
+      "sha256": "c1c5e74ac3aee1af279fdc074c11b57a8c293eb65c8a3d519d545ee7bc018e31"
+    },
+    {
+      "path": "ultralytics/data/loaders.py",
+      "bytes": 14891,
+      "sha256": "977d0eca799a1778b4997373f52b1afd48f195f9f081a890d3a0d939887fb41f"
+    },
+    {
+      "path": "ultralytics/data/scripts/download_weights.sh",
+      "bytes": 568,
+      "sha256": "33bd9240e5cfd768ada0d61c9be6f286294dead3612f24a8a84c483847faf766"
+    },
+    {
+      "path": "ultralytics/data/scripts/get_coco.sh",
+      "bytes": 1729,
+      "sha256": "51ddd560587b270b792b74963e6e5015330a83d68748ca6b650af99addad3854"
+    },
+    {
+      "path": "ultralytics/data/scripts/get_coco128.sh",
+      "bytes": 621,
+      "sha256": "d3cc97705b6c829f314d0c827e12c651a9be88b7e64258092c49a67001c12c6c"
+    },
+    {
+      "path": "ultralytics/data/scripts/get_imagenet.sh",
+      "bytes": 1672,
+      "sha256": "38e27e1d211592ece2761076b3f4674028ac1a1e4c62bebb84ef3ebbbdd451e7"
+    },
+    {
+      "path": "ultralytics/data/split_dota.py",
+      "bytes": 7219,
+      "sha256": "3146ec123a2e9969fc00bf7bb7ba295cf2b2b4e8cd1d747cfe5c3379c4d43d2f"
+    },
+    {
+      "path": "ultralytics/data/utils.py",
+      "bytes": 21874,
+      "sha256": "0052693e46740fedc25381b1e8cfc2838ec6cd325aa365b7b066eb67793faa07"
+    },
+    {
+      "path": "ultralytics/engine/__init__.py",
+      "bytes": 42,
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "ultralytics/engine/exporter.py",
+      "bytes": 47895,
+      "sha256": "643225d252d6aafe302c3fb2fd5ce07479e249af7597fb18f5236bd327b5e5fb"
+    },
+    {
+      "path": "ultralytics/engine/model.py",
+      "bytes": 15089,
+      "sha256": "a97f7c79feab2f30c101eb89e2703e761cfe3a9b83d44e92746ea250d2c6da08"
+    },
+    {
+      "path": "ultralytics/engine/predictor.py",
+      "bytes": 12014,
+      "sha256": "0a1613fefc04b98390132e79bfc3252364fb890e5eeb16a4ccca7fb5d5c0511c"
+    },
+    {
+      "path": "ultralytics/engine/results.py",
+      "bytes": 18244,
+      "sha256": "97d2776b230619b98e397959d344c2bf9cf87a6a211cc9eaa6620e886a56725c"
+    },
+    {
+      "path": "ultralytics/engine/trainer.py",
+      "bytes": 28519,
+      "sha256": "dea65955ccefd4ae0299d6e35ddbbd9c9f405064b238c399ffa8ba02fb3de878"
+    },
+    {
+      "path": "ultralytics/engine/tuner.py",
+      "bytes": 6455,
+      "sha256": "829983ed10abeee49189d3e04166fe14f9e1f31591801d3aac95f3e893a073f5"
+    },
+    {
+      "path": "ultralytics/engine/validator.py",
+      "bytes": 9575,
+      "sha256": "f7200cdb04d2f5e9f3c9baa2caf786d37e7df77ac8e0d2e9929c60c5ed982305"
+    },
+    {
+      "path": "ultralytics/hub/__init__.py",
+      "bytes": 3315,
+      "sha256": "220dbe9771e5d9dfd8d4e2896fbf51979f149900d78569c3046bd75ffd36aa38"
+    },
+    {
+      "path": "ultralytics/hub/auth.py",
+      "bytes": 3152,
+      "sha256": "96735db818954357164b9a26e8c2315db466a27b77488810173d6b3140cbf993"
+    },
+    {
+      "path": "ultralytics/hub/google/__init__.py",
+      "bytes": 5314,
+      "sha256": "edec8deac4cc478cafddc34e8ec88471f1f40963fd30b2733deef2e4eb7b304e"
+    },
+    {
+      "path": "ultralytics/hub/session.py",
+      "bytes": 10717,
+      "sha256": "175ada3e8b1326f427c018584e98fd5c865cc1fe572e5ff59714e76387a99c1d"
+    },
+    {
+      "path": "ultralytics/hub/utils.py",
+      "bytes": 5792,
+      "sha256": "2590a088d7877167fc3db09c5f41929c5287fd30d400de38a9a8ff07d8451e3b"
+    },
+    {
+      "path": "ultralytics/models/__init__.py",
+      "bytes": 243,
+      "sha256": "0f639fb8d8b3a588f4863a500d51e226a0b0d1a13aef107ea274e65bfc317f46"
+    },
+    {
+      "path": "ultralytics/models/fastsam/__init__.py",
+      "bytes": 203,
+      "sha256": "5b4ad1489337bddc5cb277ae88debf6a3914c3cea4ebea2950a74bc5584a3a84"
+    },
+    {
+      "path": "ultralytics/models/fastsam/model.py",
+      "bytes": 918,
+      "sha256": "d8fd736ffab65374aade044f3346c33667101e28404168a0c95cf2d15b34cabe"
+    },
+    {
+      "path": "ultralytics/models/fastsam/predict.py",
+      "bytes": 5462,
+      "sha256": "db60ff33ba993df77d6ff14ad102a42e1b46453283afc9bc8262096811c37e58"
+    },
+    {
+      "path": "ultralytics/models/fastsam/utils.py",
+      "bytes": 353,
+      "sha256": "01b0a82ae263cd0ec61b93d78ec2fdeaf7a7ef710228778f5fa0a46a2745d339"
+    },
+    {
+      "path": "ultralytics/models/fastsam/val.py",
+      "bytes": 545,
+      "sha256": "076a702aa6584c83acfb2ff130fc6699caead59cface4b444edb0d0e6605353b"
+    },
+    {
+      "path": "ultralytics/models/nas/__init__.py",
+      "bytes": 179,
+      "sha256": "77af964eb60b5ef6cfb39f1e6c0d3ee7cdce0e2f95cb35dcfade1a1880d02ba3"
+    },
+    {
+      "path": "ultralytics/models/nas/model.py",
+      "bytes": 1742,
+      "sha256": "abd17a6e9e77912082f3b6eb44e771f4d6cb9a81c46f8e762cce76e040779728"
+    },
+    {
+      "path": "ultralytics/models/nas/predict.py",
+      "bytes": 1092,
+      "sha256": "83de125271177b81e3185101a925063e3cd6cbdac5d29f2a51a421f73c18aa82"
+    },
+    {
+      "path": "ultralytics/models/nas/val.py",
+      "bytes": 714,
+      "sha256": "24b4ee6bfa59332d1ef741a66f8cae821ab9085176b8f5df218896a8b67e4756"
+    },
+    {
+      "path": "ultralytics/models/rtdetr/__init__.py",
+      "bytes": 197,
+      "sha256": "01981ad42dea9464ed82902ea435b87688a3ab9699950785f1ee79fc33f651ab"
+    },
+    {
+      "path": "ultralytics/models/rtdetr/model.py",
+      "bytes": 691,
+      "sha256": "b2fe8027d95f77d1215afae35ea9db37f71ee81d0cf62c560752b20238755cdd"
+    },
+    {
+      "path": "ultralytics/models/rtdetr/predict.py",
+      "bytes": 1513,
+      "sha256": "8f0386c27fb9732d753ba257eb726e8a6d22d4747c3f6f231131b65f496147cd"
+    },
+    {
+      "path": "ultralytics/models/rtdetr/train.py",
+      "bytes": 1615,
+      "sha256": "85ff455fd8a8b5d03db8fa1341b37202b01e6e46e2f6fbcad16952c171acaf8b"
+    },
+    {
+      "path": "ultralytics/models/rtdetr/val.py",
+      "bytes": 3299,
+      "sha256": "a80722ede1c948548a32e7a5ee2b44a8599df6e02315f83968f03d18989e78a4"
+    },
+    {
+      "path": "ultralytics/models/sam/__init__.py",
+      "bytes": 161,
+      "sha256": "13c2a5845d4ab26310d61d50a07a07ad5096e915cfaf787d4c51c1d804499a87"
+    },
+    {
+      "path": "ultralytics/models/sam/amg.py",
+      "bytes": 6229,
+      "sha256": "3289bca94e5d85214b56d63819c21bbbad65b6d609222966494f4118db6c9651"
+    },
+    {
+      "path": "ultralytics/models/sam/build.py",
+      "bytes": 8692,
+      "sha256": "ba2b0aaef05e1da80525369cde51ca714f376dcf0336363f0922ff16f67d2d27"
+    },
+    {
+      "path": "ultralytics/models/sam/model.py",
+      "bytes": 1514,
+      "sha256": "20c5e45eca06461302fa7e7b1899e7c0767fa458d069f1ebca6a099fbe4877a0"
+    },
+    {
+      "path": "ultralytics/models/sam/modules/__init__.py",
+      "bytes": 42,
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "ultralytics/models/sam/modules/blocks.py",
+      "bytes": 19380,
+      "sha256": "8e2f77c3049feaab901d7eca58ecccf98a79f6ac65db7df21b47aa83e16f02ea"
+    },
+    {
+      "path": "ultralytics/models/sam/modules/decoders.py",
+      "bytes": 12606,
+      "sha256": "db0af69fc9d7977c4bc21aff361fb77c4fccecd529a4753bd28f202c6aed0048"
+    },
+    {
+      "path": "ultralytics/models/sam/modules/encoders.py",
+      "bytes": 16001,
+      "sha256": "a071ce791826a1ccf7b6e6085edcad322838f0550497aad0c28ee97d7f69dd30"
+    },
+    {
+      "path": "ultralytics/models/sam/modules/memory_attention.py",
+      "bytes": 5061,
+      "sha256": "752d080150f7be5e023ceed7242374289ce30cbb23dad3f6f4cfebd6ddfd52b1"
+    },
+    {
+      "path": "ultralytics/models/sam/modules/sam.py",
+      "bytes": 28971,
+      "sha256": "5ad2f46e31d657af4635aeda5ed7bf696f40a44c9196a4d87d77f46e96ab82ed"
+    },
+    {
+      "path": "ultralytics/models/sam/modules/tiny_encoder.py",
+      "bytes": 18005,
+      "sha256": "1df67b099d8abf43cc138548e7bde5c9b9587da05cdc9196c714ba96da6888ec"
+    },
+    {
+      "path": "ultralytics/models/sam/modules/transformer.py",
+      "bytes": 5936,
+      "sha256": "8f06c8d93df37c425eb4b7b4f0013fb353ef08624ff3f166bc3165824d6bfcf0"
+    },
+    {
+      "path": "ultralytics/models/sam/modules/utils.py",
+      "bytes": 5987,
+      "sha256": "9538c9e3c7dc664637412fcac222e6067e03e6c6196a2e2f6f487a2b9e35141b"
+    },
+    {
+      "path": "ultralytics/models/sam/predict.py",
+      "bytes": 15932,
+      "sha256": "9de5dceba55ca99c07d89a6d3ad35af091023d9959c40fd186dab3396891f7ce"
+    },
+    {
+      "path": "ultralytics/models/utils/__init__.py",
+      "bytes": 42,
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "ultralytics/models/utils/loss.py",
+      "bytes": 8886,
+      "sha256": "c2f71c689d8ff57d127df4cb6852ef6631f468706c138e403b27737eab4b9062"
+    },
+    {
+      "path": "ultralytics/models/utils/ops.py",
+      "bytes": 6084,
+      "sha256": "9aabd32b8dc45b053903c1370b9b14e93cb8be308d5cdbcc8d6964e360f0ab70"
+    },
+    {
+      "path": "ultralytics/models/yolo/__init__.py",
+      "bytes": 247,
+      "sha256": "7b5719afda5b49b7f761ad8ebe44e3191c03fc4d986697bad74c6c90133c8049"
+    },
+    {
+      "path": "ultralytics/models/yolo/classify/__init__.py",
+      "bytes": 355,
+      "sha256": "b7ee295079a023682385cfa5ddba8d11c12d283d5d3b8d270f855ce98db10faa"
+    },
+    {
+      "path": "ultralytics/models/yolo/classify/predict.py",
+      "bytes": 1617,
+      "sha256": "0f52b896b23011687e4d7d067b910c8af2bd334f19807a5e4bfac32c05ee9ecc"
+    },
+    {
+      "path": "ultralytics/models/yolo/classify/train.py",
+      "bytes": 4685,
+      "sha256": "32b5c8ede003b070791c05b98c2c62c63da0bfa35a75367ee7b676574bfb4bd5"
+    },
+    {
+      "path": "ultralytics/models/yolo/classify/val.py",
+      "bytes": 3452,
+      "sha256": "3e0dfab139ec7003a80b8f41644150e63885f8c79b49edf49d38d2a339035bc4"
+    },
+    {
+      "path": "ultralytics/models/yolo/detect/__init__.py",
+      "bytes": 229,
+      "sha256": "251f206495a7ef03016e1fb48ffd3bde7c495594cc1595564ce1b95a7be4eb0d"
+    },
+    {
+      "path": "ultralytics/models/yolo/detect/predict.py",
+      "bytes": 953,
+      "sha256": "7cceccb7e0358f7f29b2cdcf727d4b28c77d623ecbbbdb60d071195292457222"
+    },
+    {
+      "path": "ultralytics/models/yolo/detect/train.py",
+      "bytes": 4476,
+      "sha256": "2d1d33507ed51354f5435796e0f5b2008c91ce91b8a8df49f0d3b217a77fa59d"
+    },
+    {
+      "path": "ultralytics/models/yolo/detect/val.py",
+      "bytes": 17096,
+      "sha256": "f6dc0f726712a2c7423e4df8f9f89377a1d11033bc540ff3a4e5dc0a6de04043"
+    },
+    {
+      "path": "ultralytics/models/yolo/model.py",
+      "bytes": 3107,
+      "sha256": "73c220b6806f68109db2807603709fe8aca997ed865c5067f72c4ec3b155a430"
+    },
+    {
+      "path": "ultralytics/models/yolo/obb/__init__.py",
+      "bytes": 193,
+      "sha256": "b7159b3c62d8d7f33b67094b423af01a34c13a5b2ff4fdf2939644832b138a75"
+    },
+    {
+      "path": "ultralytics/models/yolo/obb/predict.py",
+      "bytes": 1402,
+      "sha256": "d80484ab6afc2b3b4f8bfce67a4f292dbc6cf885f8ac1554508522c5926cd124"
+    },
+    {
+      "path": "ultralytics/models/yolo/obb/train.py",
+      "bytes": 911,
+      "sha256": "d5119727647ac60ca7b314a537216f0fa1b25d4fafe4b11dc5428d8db39a31f6"
+    },
+    {
+      "path": "ultralytics/models/yolo/obb/val.py",
+      "bytes": 6505,
+      "sha256": "9dadd3d80efdd487a8982b9a076ead3dbb00aa3be3c2c451ddee58492f007efd"
+    },
+    {
+      "path": "ultralytics/models/yolo/pose/__init__.py",
+      "bytes": 199,
+      "sha256": "386bf13772ea268b7687c197d5cb09d4a12bb079c32ac9b7dc27ba64153d2ebe"
+    },
+    {
+      "path": "ultralytics/models/yolo/pose/predict.py",
+      "bytes": 1754,
+      "sha256": "95c232d3165cfacb5f86b1692bc1c13b800926dbb5a58118de5a97d7354c240a"
+    },
+    {
+      "path": "ultralytics/models/yolo/pose/train.py",
+      "bytes": 2153,
+      "sha256": "639e52a4c5c54221a6c6e34185753de4bb2777a9c0fd2c7b817a774c7ebde3f2"
+    },
+    {
+      "path": "ultralytics/models/yolo/pose/val.py",
+      "bytes": 8918,
+      "sha256": "0334a9360287e652e35212a51efd0b3dd1b924617c4761bfdf5dfd0c44fa189a"
+    },
+    {
+      "path": "ultralytics/models/yolo/segment/__init__.py",
+      "bytes": 247,
+      "sha256": "9926ca384f019c72fb3cbda708e546edd44cec223a8497b314f3f06458c49b2f"
+    },
+    {
+      "path": "ultralytics/models/yolo/segment/predict.py",
+      "bytes": 1735,
+      "sha256": "fd39bf7bc47354cb9001d9a27017f0df169d31b1b60be14497b41cefac33f8c7"
+    },
+    {
+      "path": "ultralytics/models/yolo/segment/train.py",
+      "bytes": 1569,
+      "sha256": "8b5fe5d617efcf40f658f73da3b1f727ec24042bcfa09cd760515ce510a00153"
+    },
+    {
+      "path": "ultralytics/models/yolo/segment/val.py",
+      "bytes": 10249,
+      "sha256": "5feb0251c333f9f1b61c62d5c149067a711cfe8769533d0e1bb2cccbe7b0e499"
+    },
+    {
+      "path": "ultralytics/models/yolo/world/__init__.py",
+      "bytes": 103,
+      "sha256": "dd54c7d2ae0d3add84591a26d79c82ca6be6be6d04b69d9b9844c9521b154c12"
+    },
+    {
+      "path": "ultralytics/models/yolo/world/train.py",
+      "bytes": 2513,
+      "sha256": "ed234613b353b4bd99d8626c67b2d9ad21be4df5704e4ec37c263b2c419c0457"
+    },
+    {
+      "path": "ultralytics/models/yolo/world/train_world.py",
+      "bytes": 3052,
+      "sha256": "95f3f5fbc184d8110a75739e695a37ddeae0302ff57e58d5b0de7415ada0c2dd"
+    },
+    {
+      "path": "ultralytics/nn/__init__.py",
+      "bytes": 587,
+      "sha256": "e013cb1d8f3dc4433f6a5e6e2b468e98582230be823061196decf13af4e3384b"
+    },
+    {
+      "path": "ultralytics/nn/autobackend.py",
+      "bytes": 23207,
+      "sha256": "8cb61761c9f3aeb74157479000fabab995b259fcf734f70785ee5a281f4f8ea7"
+    },
+    {
+      "path": "ultralytics/nn/modules/__init__.py",
+      "bytes": 2264,
+      "sha256": "5f1bea2da1cd558c8797ec46d5e19edbb53bfef65e3a8426f61103c805305e6e"
+    },
+    {
+      "path": "ultralytics/nn/modules/activation.py",
+      "bytes": 639,
+      "sha256": "7178f16fb08922b892a8171088b308bc144cd0446c84b3d67ac47f83285c9578"
+    },
+    {
+      "path": "ultralytics/nn/modules/aeroguard.py",
+      "bytes": 15450,
+      "sha256": "f4731a10b6748b7a36dbb4c34f21f786fec481cfc02ce754ed7c275e40cae459"
+    },
+    {
+      "path": "ultralytics/nn/modules/aeroguard_head.py",
+      "bytes": 1806,
+      "sha256": "fd87495843cc1419527107ac3a7f7a34cecd787be0b365d21aeaf7bc70952550"
+    },
+    {
+      "path": "ultralytics/nn/modules/block.py",
+      "bytes": 24644,
+      "sha256": "36b2c427455eb7939e8f1a456a447a00f6943f5d632542863a2c970221676dc2"
+    },
+    {
+      "path": "ultralytics/nn/modules/conv.py",
+      "bytes": 8891,
+      "sha256": "76ff867234f1144790f4c5daafb650dd2966d5692343c3b4e81e7a297d645aaa"
+    },
+    {
+      "path": "ultralytics/nn/modules/head.py",
+      "bytes": 18231,
+      "sha256": "b9bf4261b32baac4265cd2c9fc73087bf3c79c46d41a3c1b00ef895e82c011c4"
+    },
+    {
+      "path": "ultralytics/nn/modules/transformer.py",
+      "bytes": 13748,
+      "sha256": "2e3c15d3bfdbb21748b5dc68245a5ae5ddf81ff1b4b14e4959c4ef4e44ea2b35"
+    },
+    {
+      "path": "ultralytics/nn/modules/utils.py",
+      "bytes": 2264,
+      "sha256": "91033a5aaa98c4606fad7fb11738c3038daf58353c1900ef81db3f9a067e64cc"
+    },
+    {
+      "path": "ultralytics/nn/tasks.py",
+      "bytes": 33166,
+      "sha256": "f13f0f0265bbc72ba0909210470ad54c98123931509003c16e543fcfbb3eafcd"
+    },
+    {
+      "path": "ultralytics/solutions/__init__.py",
+      "bytes": 648,
+      "sha256": "e910de5d63b541268c802abc62b5976a3db1bcfc36b09c092ff6b47608c2bf3d"
+    },
+    {
+      "path": "ultralytics/solutions/ai_gym.py",
+      "bytes": 3399,
+      "sha256": "9e3b7b3d763028fc098513fe8b814c2107f86890b53d22b457d00460bb7f356c"
+    },
+    {
+      "path": "ultralytics/solutions/analytics.py",
+      "bytes": 8530,
+      "sha256": "027e26e4d8f4b7b4bf374da714ec90349e24d59f063e43c40bb18fbd236cfe81"
+    },
+    {
+      "path": "ultralytics/solutions/distance_calculation.py",
+      "bytes": 3372,
+      "sha256": "38fd1f4fb9e8d76971d4619e6bd88b085c895777ce1ae6a5a87bb640be674d9c"
+    },
+    {
+      "path": "ultralytics/solutions/heatmap.py",
+      "bytes": 9261,
+      "sha256": "ef0c13fa659f1843191f3c19c8e4fac3ff846f88de5435b719702e2f66304964"
+    },
+    {
+      "path": "ultralytics/solutions/object_counter.py",
+      "bytes": 7623,
+      "sha256": "b746fa7fc3a8d402129c076ab3fd53233b13d5e46b2532ceb8a5d0790005e3b2"
+    },
+    {
+      "path": "ultralytics/solutions/parking_management.py",
+      "bytes": 6712,
+      "sha256": "044d9bfae2726b8203dde9c7dfa6589ddd72876d2851045168104db160059d01"
+    },
+    {
+      "path": "ultralytics/solutions/queue_management.py",
+      "bytes": 3376,
+      "sha256": "9cf43c197ac6b10c83b0cf8ba220e1647c9dd762ee41078c8580d3b752eb364d"
+    },
+    {
+      "path": "ultralytics/solutions/speed_estimation.py",
+      "bytes": 3267,
+      "sha256": "ccc8339c27095b207eaaa6302abd6b91ad51f0fa17f7cb76e52cd9ff796b879f"
+    },
+    {
+      "path": "ultralytics/solutions/streamlit_inference.py",
+      "bytes": 4631,
+      "sha256": "0a024a096d966136ed737843045e7d4e7cbf29e68782b6bd1e0584958fca3ff9"
+    },
+    {
+      "path": "ultralytics/trackers/__init__.py",
+      "bytes": 205,
+      "sha256": "bbea3509fa2b0f0dad46d5dd547010988d94db96a86fc1bd4a41147fd21bc0b7"
+    },
+    {
+      "path": "ultralytics/trackers/basetrack.py",
+      "bytes": 1243,
+      "sha256": "06842ad97d7d0e17ab9c3c5ad251547d787d3e2d0624af73640217a5bc362dfe"
+    },
+    {
+      "path": "ultralytics/trackers/bot_sort.py",
+      "bytes": 4487,
+      "sha256": "d78ef2acdb21ad99aaa771315e98439feb065edda07272602f584bb8666ad810"
+    },
+    {
+      "path": "ultralytics/trackers/byte_tracker.py",
+      "bytes": 12574,
+      "sha256": "4036ad3af72e654ee0b9a082f36e007bf6232c482470a044568a1475aa4343e5"
+    },
+    {
+      "path": "ultralytics/trackers/README.md",
+      "bytes": 13534,
+      "sha256": "6d44d70d7bd5017658bad8de0c33ed476c262d4037feead17fc196ce79dae73b"
+    },
+    {
+      "path": "ultralytics/trackers/track.py",
+      "bytes": 2390,
+      "sha256": "d3b5cc67d4bdf84e9b81c2837060fc97a05d956bfdf57c2d293313c1f747247c"
+    },
+    {
+      "path": "ultralytics/trackers/utils/__init__.py",
+      "bytes": 42,
+      "sha256": "987b49b8ae21c05f1cb95f951c373bb69eaee83d601f3d99ec923c82b9900d3b"
+    },
+    {
+      "path": "ultralytics/trackers/utils/gmc.py",
+      "bytes": 8432,
+      "sha256": "2707a44f1be4a2ebe3bc6018559f0b36a4e25c96833fe0e41bd300985874cadd"
+    },
+    {
+      "path": "ultralytics/trackers/utils/kalman_filter.py",
+      "bytes": 8035,
+      "sha256": "1ad2f460a20a4592710340dc445ebeb865a4e9156b700816802eb146d3998fa2"
+    },
+    {
+      "path": "ultralytics/trackers/utils/matching.py",
+      "bytes": 3418,
+      "sha256": "99912bde251ed1eb047ff6469826d308d90bcc295402b615305ce7de756a2c07"
+    },
+    {
+      "path": "ultralytics/utils/__init__.py",
+      "bytes": 25315,
+      "sha256": "d3c77de0c9f703fecd3cd23b7efed9d3a8957c1b2ba73dab91eeeff7ce3f1f31"
+    },
+    {
+      "path": "ultralytics/utils/aeroguard_loss.py",
+      "bytes": 6038,
+      "sha256": "acbe1c771c8ac012d0509f740c5a89641c93c3c546d826597e4190f516f6478c"
+    },
+    {
+      "path": "ultralytics/utils/autobatch.py",
+      "bytes": 2499,
+      "sha256": "d956b4a1df4727286a91edd075b49fe81391e24194303be33b7455a07e6ca4aa"
+    },
+    {
+      "path": "ultralytics/utils/benchmarks.py",
+      "bytes": 16748,
+      "sha256": "2abcb54a9691dbc6cbcc8193b35049632118ccd63f33c5aa26425f12486a6c60"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/__init__.py",
+      "bytes": 214,
+      "sha256": "62b5aa0b705555a4cba1be2208f47a237ea65312143a93c95bb07f2e34fbf10c"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/base.py",
+      "bytes": 3466,
+      "sha256": "297f997ea3be832164820a104d492819c45b78c56b7ab543ad6578fd66355dd5"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/clearml.py",
+      "bytes": 4652,
+      "sha256": "565b061c54732e9520d58ddaa0da260364174d5812d249b3b44d1e5cc836b274"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/comet.py",
+      "bytes": 11341,
+      "sha256": "04014173fe0558e3e372eccf6aa10f265e4b632f240369b2ee969296efef2370"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/dvc.py",
+      "bytes": 3900,
+      "sha256": "917a0644290c8add806fae63d402efb2bdedb65771a80b6dfc2bf2d0f80b1747"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/hub.py",
+      "bytes": 3169,
+      "sha256": "a5a229740fd1dcd2667603dbd947f1b0af429f6c6f5b361d931abb5a0fe7efaf"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/mlflow.py",
+      "bytes": 3022,
+      "sha256": "99257c296eedbae82bee541b116a0fd2b5e768350a61896fd4aee31c883a8e19"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/neptune.py",
+      "bytes": 2972,
+      "sha256": "a099458f546cbd0689703935dfed78ea907bb2c07f66a0d44366ef4b26669084"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/raytune.py",
+      "bytes": 554,
+      "sha256": "f9ebfec5ea10612c53e4eb8b80fe2c1b7dfca6fc1fc5ea7ea69a3c51cc43c7e0"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/tensorboard.py",
+      "bytes": 3084,
+      "sha256": "f4e01c1773a1c6a271293bebf943b958c3a5d403a4d368dfbec2c14d3df6f832"
+    },
+    {
+      "path": "ultralytics/utils/callbacks/wb.py",
+      "bytes": 3858,
+      "sha256": "f4ddf88de03e82921cbc6713458ff847bfd699ec19161233b5dca53fdbf5e868"
+    },
+    {
+      "path": "ultralytics/utils/checks.py",
+      "bytes": 19007,
+      "sha256": "11fdb8be6ebdc2040950157210207921366679176b6afe4dc2ebf6d9a1241dd1"
+    },
+    {
+      "path": "ultralytics/utils/dist.py",
+      "bytes": 1872,
+      "sha256": "ec86b285f38fd4e54cb2cdbc1cff80b9c5813563c5208c49c66f948e81a19a0b"
+    },
+    {
+      "path": "ultralytics/utils/downloads.py",
+      "bytes": 11844,
+      "sha256": "f8fab2d4451c6e464c09f453880fc0a1f09de9fbc2feb3289a0c8f603c2c9f8b"
+    },
+    {
+      "path": "ultralytics/utils/errors.py",
+      "bytes": 261,
+      "sha256": "65f299a063eafa82a3f98baa0455260f64608300c19efc59bf154d4b1265c082"
+    },
+    {
+      "path": "ultralytics/utils/files.py",
+      "bytes": 3443,
+      "sha256": "e3b0da4f9f836c3e9faf6b78f57f1ce421fb3d0c78e8f7447da01b09fc9e37ec"
+    },
+    {
+      "path": "ultralytics/utils/instance.py",
+      "bytes": 9069,
+      "sha256": "9706c8ab9e4c455d827d15b05258d955ed915ed5cb935927d8935f83aadfbd7b"
+    },
+    {
+      "path": "ultralytics/utils/loss.py",
+      "bytes": 24032,
+      "sha256": "8b8cc179823e7089279395c9f067bb56c1147ae258a6fe830c7080a1232d2d20"
+    },
+    {
+      "path": "ultralytics/utils/metrics.py",
+      "bytes": 26616,
+      "sha256": "640b9fe3056eae801d3b01d81e7c2e20432827b6038fd897192ff69f561ec52a"
+    },
+    {
+      "path": "ultralytics/utils/ops.py",
+      "bytes": 15209,
+      "sha256": "df381658a8610016bc2c1d544fcc4a7628b21bdb5bab1ebf3e83a2c85291aab2"
+    },
+    {
+      "path": "ultralytics/utils/paper_metrics.py",
+      "bytes": 12732,
+      "sha256": "1a59387d1de822bd5fff2fab58c7324ff9f9a99a78058ad6e094ca2798f55733"
+    },
+    {
+      "path": "ultralytics/utils/patches.py",
+      "bytes": 1357,
+      "sha256": "94674611903417ae652004fc173ff3acbecda5f319a63601a5377ace367ad86a"
+    },
+    {
+      "path": "ultralytics/utils/plotting.py",
+      "bytes": 37748,
+      "sha256": "c139a624be58c43bcff533d0d82d885541693af7b2d5e03bfe49ef28a337f988"
+    },
+    {
+      "path": "ultralytics/utils/sage.py",
+      "bytes": 5822,
+      "sha256": "a69ae9ebb872a7342f3cba51240eafc2ada470b6ea1f536eacaae31a875b490a"
+    },
+    {
+      "path": "ultralytics/utils/tal.py",
+      "bytes": 8998,
+      "sha256": "b745d168475d4c1fabe3b47108a5aa410035cb9d9e480357a1d415f7a6e5dc39"
+    },
+    {
+      "path": "ultralytics/utils/torch_utils.py",
+      "bytes": 19917,
+      "sha256": "d825e228d9353ea7996c2855cc89439bd2bbf34cc26d4e03e72aa87ade6f9ac5"
+    },
+    {
+      "path": "ultralytics/utils/triton.py",
+      "bytes": 2408,
+      "sha256": "b9730b02897c5dd38ee8ef8752ee4f861f516948667abcd156e347db94100d27"
+    },
+    {
+      "path": "ultralytics/utils/tuner.py",
+      "bytes": 3787,
+      "sha256": "ae08db64b0bc2ab24fa350a8487ca6ca0e21262ceb1aff88a6031894d3c6ca49"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 5968,
+      "sha256": "5f2575200e96fccb404c7315d7ec79c6c312dea9834f07e45766f8f02cae49f2"
+    }
+  ]
+}

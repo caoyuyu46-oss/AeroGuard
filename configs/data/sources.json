@@ -1,0 +1,22 @@
+{
+  "RSOD": {
+    "source": "https://github.com/RSIA-LIESMARS-WHU/RSOD-Dataset-",
+    "classes": "YAML order for converted annotations"
+  },
+  "NWPU_VHR10": {
+    "source": "https://gcheng-nwpu.github.io/#Datasets",
+    "classes": "Original foreground category order converted to zero-based indices"
+  },
+  "SIMD": {
+    "source": "https://github.com/ihians/simd/blob/master/simd-classes.txt",
+    "classes": "Original zero-based category order"
+  },
+  "VisDrone": {
+    "source": "https://github.com/ultralytics/ultralytics/blob/v8.3.0/ultralytics/cfg/datasets/VisDrone.yaml",
+    "classes": "Official foreground IDs 1-10 converted to 0-9"
+  },
+  "evaluation": {
+    "annotations": "For AP, supply original COCO annotations with crowd/ignore fields retained. YOLO boxes alone cannot restore omitted ignore regions.",
+    "splits": "External dataset images and frozen split lists are not bundled."
+  }
+}

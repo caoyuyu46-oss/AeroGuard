@@ -1,0 +1,39 @@
+nc: 2
+scales:
+  n: [0.5, 0.25, 1024]
+aeroguard:
+  use_sage: false
+  quality_supervision: false
+  quality_target: composite
+  quality_gain: 0.5
+  quality_negative_weight: 0.05
+backbone:
+- [-1, 1, Conv, [64, 3, 2]]
+- [-1, 1, Conv, [128, 3, 2]]
+- [-1, 2, C3k2, [256, false, 0.25]]
+- [-1, 1, Conv, [256, 3, 2]]
+- [-1, 2, C3k2, [512, false, 0.25]]
+- [-1, 1, Conv, [512, 3, 2]]
+- [-1, 2, C3k2, [512, true]]
+- [-1, 1, Conv, [1024, 3, 2]]
+- [-1, 2, C3k2, [1024, true]]
+- [-1, 1, SPPF, [1024, 5]]
+- [-1, 2, C2PSA, [1024]]
+head:
+- [2, 1, SharedDetailExtractor, [64, 0.8, 4.0, 1.0e-06, true]]
+- [[11, 4], 1, RDET, [64, 32, 0.5, 0.1, 1.0e-06, true, no_salience]]
+- [[11, 6], 1, RDET, [64, 32, 0.5, 0.1, 1.0e-06, true, no_salience]]
+- [[11, 10], 1, RDET, [64, 32, 0.5, 0.1, 1.0e-06, true, no_salience]]
+- [14, 1, nn.Upsample, [null, 2, nearest]]
+- [[15, 13], 1, Concat, [1]]
+- [16, 2, C3k2, [512, false]]
+- [17, 1, nn.Upsample, [null, 2, nearest]]
+- [[18, 12], 1, Concat, [1]]
+- [19, 2, C3k2, [256, false]]
+- [20, 1, Conv, [256, 3, 2]]
+- [[21, 17], 1, Concat, [1]]
+- [22, 2, C3k2, [512, false]]
+- [23, 1, Conv, [512, 3, 2]]
+- [[24, 14], 1, Concat, [1]]
+- [25, 2, C3k2, [1024, true]]
+- [[20, 23, 26], 1, Detect, [nc]]

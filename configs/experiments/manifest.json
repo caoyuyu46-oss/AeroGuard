@@ -1,0 +1,106 @@
+{
+  "model_files": [
+    "F000",
+    "F001",
+    "F010",
+    "F011",
+    "F100",
+    "F101",
+    "F110",
+    "F111",
+    "F111C",
+    "F111SQ",
+    "aeroguard",
+    "baseline",
+    "bdrp_gate_only",
+    "bdrp_global_bound",
+    "bdrp_local_bound_only",
+    "capacity_control",
+    "ciou_quality",
+    "p2_control",
+    "rdet_fixed_residual",
+    "rdet_no_agreement",
+    "rdet_no_salience",
+    "rdet_no_shrink",
+    "sage_iou_quality",
+    "sage_quality_off",
+    "sage_rank_off",
+    "sjrh_large_radius",
+    "sjrh_shared_offsets",
+    "sjrh_zero_offsets"
+  ],
+  "five_seeds": [
+    42,
+    123,
+    456,
+    789,
+    2024
+  ],
+  "three_seeds": [
+    42,
+    123,
+    456
+  ],
+  "main_model": "aeroguard",
+  "controlled_structures": [
+    "F000",
+    "F001",
+    "F010",
+    "F011",
+    "F100",
+    "F101",
+    "F110",
+    "F111"
+  ],
+  "F111_alias": "F111C",
+  "F111SQ_alias": "aeroguard",
+  "capacity_control": "Standard-operator P3-P5 capacity control with width=0.30 and depth=0.50. The author has confirmed the historical control definition. Report the actual profile for the configuration being run.",
+  "p2_control": "P2-P5 PAN extension with 32/64/128/256 prediction-input channels. The author has confirmed the historical control definition.",
+  "quality_rank_off": "Train once with F111SQ/aeroguard, then toggle the head quality scoring at the same checkpoint. sage_rank_off has identical train objective and initialization but is not evidence of shared checkpoint unless used as inference toggle.",
+  "mechanism_variants": {
+    "rdet_no_shrink": {
+      "parent": "F100",
+      "modified_module": "SharedDetailExtractor"
+    },
+    "rdet_fixed_residual": {
+      "parent": "F100",
+      "modified_module": "RDET"
+    },
+    "rdet_no_agreement": {
+      "parent": "F100",
+      "modified_module": "RDET"
+    },
+    "rdet_no_salience": {
+      "parent": "F100",
+      "modified_module": "RDET"
+    },
+    "bdrp_gate_only": {
+      "parent": "F010",
+      "modified_module": "BDRP"
+    },
+    "bdrp_local_bound_only": {
+      "parent": "F010",
+      "modified_module": "BDRP"
+    },
+    "bdrp_global_bound": {
+      "parent": "F010",
+      "modified_module": "BDRP"
+    },
+    "sjrh_zero_offsets": {
+      "parent": "F111C",
+      "modified_module": "Detect_SJRH"
+    }
+  },
+  "not_bundled": [
+    "Third-party detector training implementations",
+    "Historical generic-gate topology",
+    "DCNv2 comparison implementation",
+    "GWD and NWD comparison implementations",
+    "Full benchmark checkpoints and original per-seed predictions"
+  ],
+  "display_names": {
+    "capacity_control": "Capacity control",
+    "p2_control": "P2 control",
+    "aeroguard": "Ours"
+  }
+}

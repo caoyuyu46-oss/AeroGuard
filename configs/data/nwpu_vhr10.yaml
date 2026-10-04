@@ -1,0 +1,16 @@
+path: datasets/NWPU-VHR-10
+train: images/train
+val: images/val
+test: images/test
+nc: 10
+names:
+  0: airplane
+  1: ship
+  2: storage_tank
+  3: baseball_diamond
+  4: tennis_court
+  5: basketball_court
+  6: ground_track_field
+  7: harbor
+  8: bridge
+  9: vehicle

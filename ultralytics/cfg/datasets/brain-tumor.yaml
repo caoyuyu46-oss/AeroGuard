@@ -1,0 +1,22 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+
+
+
+
+
+
+
+
+path: ../datasets/brain-tumor
+train: train/images
+val: valid/images
+test:
+
+
+names:
+  0: negative
+  1: positive
+
+
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/brain-tumor.zip

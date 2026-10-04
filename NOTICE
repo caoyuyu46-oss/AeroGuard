@@ -1,0 +1,11 @@
+This project is derived from Ultralytics v8.3.0.
+This distribution was modified for the AeroGuard manuscript on 2026-10-03.
+Upstream repository: https://github.com/ultralytics/ultralytics
+Upstream commit: 6e43d1e1e5db72afbf686dee6745669bcb124b0a
+Upstream copyright and AGPL-3.0 notices are retained.
+
+This distribution adds the AeroGuard model, SAGE criterion, experiment configurations,
+evaluation tools, and a dataset sample. It is not an official Ultralytics release.
+
+The source-code license does not grant rights to third-party dataset images.
+Dataset provenance and the scope of dataset rights are recorded in datasets/aeroguard_sample.

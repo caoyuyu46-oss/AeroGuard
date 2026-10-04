@@ -1,0 +1,25 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+
+
+
+
+
+
+
+
+path: ../datasets/hand-keypoints
+train: train
+val: val
+
+
+kpt_shape: [21, 3]
+flip_idx:
+  [0, 1, 2, 4, 3, 10, 11, 12, 13, 14, 5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20]
+
+
+names:
+  0: hand
+
+
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/hand-keypoints.zip

@@ -1,0 +1,74 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+
+
+
+
+
+
+
+
+path: ../datasets/Argoverse
+train: Argoverse-1.1/images/train/
+val: Argoverse-1.1/images/val/
+test: Argoverse-1.1/images/test/
+
+
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: bus
+  5: truck
+  6: traffic_light
+  7: stop_sign
+
+
+download: |
+  import json
+  from tqdm import tqdm
+  from ultralytics.utils.downloads import download
+  from pathlib import Path
+
+  def argoverse2yolo(set):
+      labels = {}
+      a = json.load(open(set, "rb"))
+      for annot in tqdm(a['annotations'], desc=f"Converting {set} to YOLOv5 format..."):
+          img_id = annot['image_id']
+          img_name = a['images'][img_id]['name']
+          img_label_name = f'{img_name[:-3]}txt'
+
+          cls = annot['category_id']
+          x_center, y_center, width, height = annot['bbox']
+          x_center = (x_center + width / 2) / 1920.0
+          y_center = (y_center + height / 2) / 1200.0
+          width /= 1920.0
+          height /= 1200.0
+
+          img_dir = set.parents[2] / 'Argoverse-1.1' / 'labels' / a['seq_dirs'][a['images'][annot['image_id']]['sid']]
+          if not img_dir.exists():
+              img_dir.mkdir(parents=True, exist_ok=True)
+
+          k = str(img_dir / img_label_name)
+          if k not in labels:
+              labels[k] = []
+          labels[k].append(f"{cls} {x_center} {y_center} {width} {height}\n")
+
+      for k in labels:
+          with open(k, "w") as f:
+              f.writelines(labels[k])
+
+
+
+  dir = Path(yaml['path'])
+  urls = ['https://drive.google.com/file/d/1st9qW3BeIwQsnR0t8mRpvbsSWIo16ACi/view?usp=drive_link']
+  print("\n\nWARNING: Argoverse dataset MUST be downloaded manually, autodownload will NOT work.")
+  print(f"WARNING: Manually download Argoverse dataset '{urls[0]}' to '{dir}' and re-run your command.\n\n")
+
+
+
+  annotations_dir = 'Argoverse-HD/annotations/'
+  (dir / 'Argoverse-1.1' / 'tracking').rename(dir / 'Argoverse-1.1' / 'images')
+  for d in "train.json", "val.json":
+      argoverse2yolo(dir / annotations_dir / d)

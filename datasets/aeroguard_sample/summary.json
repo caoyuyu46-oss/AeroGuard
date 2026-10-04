@@ -1,0 +1,38 @@
+{
+  "images": 200,
+  "splits": {
+    "train": 150,
+    "val": 25,
+    "test": 25
+  },
+  "instances": {
+    "drone": 427,
+    "bird": 4159
+  },
+  "class_states": {
+    "drone": 100,
+    "bird": 66,
+    "background": 33,
+    "mixed": 1
+  },
+  "source_collections": {
+    "AntiUAV_Tracking": 20,
+    "D1_DroneBird": 28,
+    "DUT_AntiUAV": 25,
+    "D8_AOD4": 58,
+    "D2_BirdDrone": 27,
+    "D7_FlySmallBirds": 42
+  },
+  "drone_size_bins_e640": {
+    "32_or_larger": 185,
+    "below_8": 17,
+    "16_to_32": 187,
+    "8_to_16": 38
+  },
+  "independent_source_groups": 200,
+  "selection_seed": 42,
+  "original_splits_preserved": true,
+  "image_bytes_preserved": true,
+  "annotation_bytes_preserved": true,
+  "purpose": "Example dataset for execution checks; not the paper benchmark"
+}

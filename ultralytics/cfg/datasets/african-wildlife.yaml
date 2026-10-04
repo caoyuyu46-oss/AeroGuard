@@ -1,0 +1,24 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+
+
+
+
+
+
+
+
+path: ../datasets/african-wildlife
+train: train/images
+val: valid/images
+test: test/images
+
+
+names:
+  0: buffalo
+  1: elephant
+  2: rhino
+  3: zebra
+
+
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/african-wildlife.zip
